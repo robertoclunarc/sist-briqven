@@ -1,0 +1,17 @@
+.portada{
+   background: url(../pages/images/header.jpg) no-repeat  ;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 100%;
+   width: 100% ;
+   text-align: left;
+ 
+}
+.text{
+  margin: 10px 0px 10px 0px;  
+  padding: 5px;
+  /*background: rgba(0,0,0,0.5);*/
+  display: inline-block;
+}
