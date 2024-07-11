@@ -127,7 +127,8 @@ function buscar($finicio, $ffin, $SH, $trabajador) {
               ////////////////////////////////////////////////////////////////
               $fdx=date("Y-m-d", strtotime($d_x[0]));
               /***** INCLUIDO PARA CONSULTAR POR CADA TRABAJADOR SI TIENE HORAS EXTRAS CARGADAS EN CONTROL DE ASISTENCIA ******/
-              $result = CONSULTAR_STDLT_LOCAL($fila["cedula"],$fdx, $link_CONSULTAR_STDLT_LOCAL); 
+              $result = CONSULTAR_STDLT_LOCAL($fila["cedula"],$fdx, $link_CONSULTAR_STDLT_LOCAL);
+              //print  $fdx." => ".$result."<br>";
               if ($result=='0'){
                   $clase = "danger";
                   $boton = "<b>R</b>";
@@ -143,8 +144,11 @@ function buscar($finicio, $ffin, $SH, $trabajador) {
               }elseif ($result=='4'){
                   $clase = "success";
                   $boton = '<b><i class="fa fa-check" aria-hidden="true"></i></b>';
+              }elseif ($result=='5'){
+                  $clase = "danger";
+                  $boton = "<b>RC</b>";
               }
-              /*****************************************************************************************************************/  
+              /*******************************************************************************************/  
               $param = $fila["cedula"].",'".$fdx."', 'C'";
 
               $inpt_x .='<td class="'.$clase.'"><span class="label label-'.$clase.'">'.$esperanza.'</span><br>

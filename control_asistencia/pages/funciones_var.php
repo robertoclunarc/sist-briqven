@@ -77,7 +77,7 @@ else
 //---------------------------------------------
 function periodo_abierto($link, $idcal){
 
-$sql = "SELECT abierto, fecha_cierre FROM periodos_nomina WHERE id_calendario = ".$idcal.";";
+$sql = "SELECT abierto, tipo_nomina, mes, anio, fecha_pago FROM periodos_nomina WHERE id_calendario = ".$idcal.";";
 $result = pg_query($link,$sql);
 $row=pg_fetch_array($result);
 $nreg=ejecutar_num_rows($result);
@@ -86,10 +86,77 @@ if ($nreg>0)
    /*if ($row['fecha_cierre']=="")
         return false;
    else */     
-        return $row['abierto'];
+        return $row;
 else
    return false;
 }
+//----------------------------------------------------------------------
+
+function dadaFechaDevuelveIdCalendario($link, $fecha){
+
+$sql = "SELECT abierto, tipo_nomina, mes, anio, fecha_pago, inicio, fin, id_calendario FROM periodos_nomina WHERE '$fecha' BETWEEN inicio and fin;";
+$result = pg_query($link,$sql);
+$row=pg_fetch_array($result);
+$nreg=ejecutar_num_rows($result);
+pg_free_result($result);
+if ($nreg>0)
+   /*if ($row['fecha_cierre']=="")
+        return false;
+   else */     
+        return $row;
+else
+   return false;
+}
+
+//-----------------------------------------------------------------------------
+
+function enviarPermisoSITT($sp, $cedula,$fini1, $ffin2, $turno, $sh, $npermiso, $cod_adam , $cod_ubicacion, $clase_nomina, $relacion_laboral , $firma, $h1, $h2, $PeriodoPago, $autorizado, $autorizado2, $Obs, $estado, $CentroCosto, $cod_cargo){
+    
+    try {
+        $mbd=Conectarse_sitt();
+        
+        if ($sp=="SW_actualiza_datos_permiso"){
+            $stmt = $mbd->prepare("EXEC $sp ?, ?, ?, ?, ?,?, ?, ?, ?, ?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?");
+        } else {
+            $stmt = $mbd->prepare("EXEC $sp ?, ?, ?, ?, ?,?, ?, ?, ?, ?,?, ?, ?, ?, ?, ?, ?");
+        }
+        $stmt->bindParam(1, $cedula, PDO::PARAM_INT,10);
+        $stmt->bindParam(2, $fini1, PDO::PARAM_STR,10);
+        $stmt->bindParam(3, $ffin2, PDO::PARAM_STR,10);
+        $stmt->bindParam(4, $turno, PDO::PARAM_INT,10);
+        $stmt->bindParam(5, $sh, PDO::PARAM_INT,10);
+        $stmt->bindParam(6, $npermiso, PDO::PARAM_INT,10);
+        $stmt->bindParam(7, $cod_adam , PDO::PARAM_INT,10);
+        $stmt->bindParam(8, $cod_ubicacion, PDO::PARAM_STR,4);
+        $stmt->bindParam(9, $clase_nomina, PDO::PARAM_STR,2);
+        $stmt->bindParam(10, $relacion_laboral , PDO::PARAM_STR,1);
+        $stmt->bindParam(11, $firma, PDO::PARAM_STR,12);
+        $stmt->bindParam(12, $h1, PDO::PARAM_STR,5);
+        $stmt->bindParam(13, $h2, PDO::PARAM_STR,5);
+        $stmt->bindParam(14, $PeriodoPago, PDO::PARAM_INT,10);
+        $stmt->bindParam(15, $autorizado, PDO::PARAM_INT,10);
+        $stmt->bindParam(16, $autorizado2, PDO::PARAM_STR,10);
+        $stmt->bindParam(17, $Obs, PDO::PARAM_STR,255); 
+        if ($sp=="SW_actualiza_datos_permiso"){
+            $stmt->bindParam(18, $estado, PDO::PARAM_STR,1);
+            $stmt->bindParam(19, $CentroCosto, PDO::PARAM_STR,10);
+            $stmt->bindParam(20, $cod_cargo, PDO::PARAM_STR,4);
+        }   
+
+        $stmt->execute();
+         
+        $datosPermisos = $stmt->fetch();
+        
+        $stmt=null;
+        $mbd=null;
+        return $datosPermisos;
+
+    } catch (Exception $e) {
+        echo $e;
+        return $datosPermisos=[];
+    }
+}
+
 //----------------------------------------------------------------------
 function fecha_actual($forma,$tam, $link){
 
@@ -144,6 +211,15 @@ function llenar_combo_permiso(){
 
 	      $option.= "</select>";
 echo $option;
+}
+
+function buscarValor($array, $propiedadBuscar, $valorBuscar, $propiedadObtener) {
+    foreach ($array as $item) {
+        if (isset($item[$propiedadBuscar]) && $item[$propiedadBuscar] == $valorBuscar) {
+            return isset($item[$propiedadObtener]) ? $item[$propiedadObtener] : null;
+        }
+    }
+    return null;
 }
 
 //-----------------------------------------------------------------------
@@ -243,48 +319,10 @@ function lista_trabajadores_sin_espacio($p){
 
 }
 //--------------------------------------------------------------------------
-function llenar_lista_trabajadores_del_supervisor(){
-
-    switch ($_SESSION['nivel_jerarquico']) {
-        case 1:          
-            $filtro = "direccion";            
-            break;
-        case 2:          
-            $filtro = "direccion";            
-            break;
-        case 3:          
-            $filtro = "gergral";            
-            break;
-        case 4:          
-            $filtro = "gerencia";            
-            break;
-        case 5:          
-            $filtro = "depto";            
-            break;
-        case 6:          
-            $filtro = "coordina";            
-            break;
-        default:          
-            $filtro = "coordina";
-    }  
-
-    
-        $query="SELECT trabajador, nombre, nivel_jerarquico FROM adam_vw_dotacion_briqven_02_mas 
-        WHERE ".$filtro." = (SELECT ".$filtro." FROM adam_vw_dotacion_briqven_02_mas WHERE trim(trabajador)='".$_SESSION['cedula_session_const']."') AND nivel_jerarquico::integer>='".$_SESSION['nivel_jerarquico']."'";
-        $query.=" UNION ";
-        $query.="SELECT trabajador, nombre, nivel_jerarquico FROM adam_vw_dotacion_briqven_02_mas 
-        WHERE trim(trabajador_sup) = '".$_SESSION['cedula_session_const']."'";
-        $query.=" UNION ";
-        $query.= "SELECT trabajador, nombre, nivel_jerarquico FROM adam_vw_dotacion_briqven_02_mas WHERE trabajador_sup in (    
-        SELECT trabajador FROM adam_vw_dotacion_briqven_02_mas 
-        WHERE depto = (SELECT depto FROM adam_vw_dotacion_briqven_02_mas 
-                       WHERE trim(trabajador)='".$_SESSION['cedula_session_const']."') 
-                       AND nivel_jerarquico::integer>='".$_SESSION['nivel_jerarquico']."')";
-        $query.=" UNION ";
-        $query.="SELECT trabajador, nombre, nivel_jerarquico FROM supervisores_trabajadores 
-        WHERE trabajador_sup = '".$_SESSION['cedula_session_const']."'";
-        $query.=" ORDER BY nombre";
-        //echo $query;
+function llenar_lista_trabajadores_del_supervisor(){     
+    $query="SELECT trabajador from lista_trabajadores_del_supervisor('".$_SESSION['user_session_const']."')";
+    $query.=" ORDER BY nombre";
+    //echo $query;
     $conn=Conex_rrhh_pgsql();
     $stid = ejecutar_query($conn, $query);
     $lista='';
@@ -294,10 +332,7 @@ function llenar_lista_trabajadores_del_supervisor(){
     pg_close($conn);
     $lista = substr($lista, 0, -2);
     return $lista;
-
 }
-
-
 
 //--------------------------------------------------------------------------
 function llenar_combo_trabajadores($p){
@@ -481,7 +516,7 @@ function nombre_gerente($trabajador, $ccosto){
     if (count($data)==0){
         $query="select v.trabajador, v.nombre, v.desc_puesto, v.grado_trab from vw_dotacion_briqven_02_mas v where v.grado_trab >= 41 and v.puesto in (select puesto from puestos_sid where to_number(catsal)>=41) and v.gergral= (select gergral from vw_dotacion_briqven_02_mas where ltrim(trabajador)='".$trabajador."')  and v.grado_trab = (select max(to_number(catsal)) from puestos_sid  where descripcion=v.desc_puesto) order by v.grado_trab asc";
 
-        if ($ccosto==61606){
+        if ($ccosto==61606 || $ccosto==61608){
             $query="select v.trabajador, v.nombre, v.desc_puesto, v.grado_trab
                 from vw_dotacion_briqven_02_mas v 
                 where v.grado_trab >= 41 
@@ -1013,7 +1048,7 @@ function CONSULTAR_STDLT_LOCAL($cedula, $fecha, $link_CONSULTAR_STDLT_LOCAL)
     //$link_CONSULTAR_STDLT_LOCAL   = Conex_Contancia_pgsql();
     $result = ejecutar_query($link_CONSULTAR_STDLT_LOCAL, $qry) or die("Error en la Consulta SQL: ".$qry);
     $contar = ejecutar_num_rows($result);
-    if ($contar>0){
+if ($contar>0){
         $row    = ejecutar_fetch_array($result);
         if ($row['autorizado1']!='' && $row['autorizado1']!=NULL)
             $resultado='4';
@@ -1021,8 +1056,10 @@ function CONSULTAR_STDLT_LOCAL($cedula, $fecha, $link_CONSULTAR_STDLT_LOCAL)
             $resultado='3';
         elseif($row['autorizado2']!='' && $row['autorizado2']!=NULL)
             $resultado='2';
-        elseif($row['rechazado_stdlt']!='' && $row['rechazado_stdlt']!=NULL && $row['rechazado_stdlt']!=0)
+        elseif($row['rechazado_stdlt']!='' && $row['rechazado_stdlt']!=NULL && $row['rechazado_stdlt']!=0 && $row['autorizado2']!='' && $row['autorizado2']!=NULL)
             $resultado='0';
+        elseif(($row['rechazado_stdlt']!='' && $row['rechazado_stdlt']!=NULL && $row['rechazado_stdlt']!=0) && ($row['autorizado2']=='' || $row['autorizado2']==NULL))
+            $resultado='5';
         else
            $resultado='1';  //CARGADO
     }else{
@@ -1215,6 +1252,67 @@ function SW_BORRA_DLT_CEDULA($cedula,$fecha)
         pg_close($link);
 
     return $resultado;
+
+}
+//--------------------------------------------------------------------------
+function llenar_combo_ccosto_del_supervisor(){
+
+    switch ($_SESSION['nivel_jerarquico']) {
+        case 1:          
+            $filtro = "direccion";            
+            break;
+        case 2:          
+            $filtro = "direccion";            
+            break;
+        case 3:          
+            $filtro = "gergral";            
+            break;
+        case 4:          
+            $filtro = "gerencia";            
+            break;
+        case 5:          
+            $filtro = "depto";            
+            break;
+        case 6:          
+            $filtro = "coordina";            
+            break;
+        default:          
+            $filtro = "coordina";
+    }  
+
+    
+        $query="SELECT ccosto, detalle_ccosto FROM adam_vw_dotacion_briqven_02_mas 
+        WHERE ".$filtro." = (SELECT ".$filtro." FROM adam_vw_dotacion_briqven_02_mas WHERE trim(trabajador)='".$_SESSION['cedula_session_const']."') AND nivel_jerarquico::integer>='".$_SESSION['nivel_jerarquico']."'";
+        $query.=" UNION ";
+        $query.="SELECT ccosto, detalle_ccosto FROM adam_vw_dotacion_briqven_02_mas 
+        WHERE trim(trabajador_sup) = '".$_SESSION['cedula_session_const']."'";
+        $query.=" UNION ";
+        $query.= "SELECT ccosto, detalle_ccosto FROM adam_vw_dotacion_briqven_02_mas WHERE trabajador_sup in (    
+        SELECT trabajador FROM adam_vw_dotacion_briqven_02_mas 
+        WHERE depto = (SELECT depto FROM adam_vw_dotacion_briqven_02_mas 
+                       WHERE trim(trabajador)='".$_SESSION['cedula_session_const']."') 
+                       AND nivel_jerarquico::integer>='".$_SESSION['nivel_jerarquico']."')";
+        $query.=" UNION ";
+        $query.="SELECT ccosto, detalle_ccosto FROM supervisores_trabajadores s inner join adam_vw_dotacion_briqven_02_mas v on v.trabajador=s.trabajador
+        WHERE v.trabajador_sup = '".$_SESSION['cedula_session_const']."'";
+        $query.=" ORDER BY ccosto";
+        //echo $query;
+        $conn=Conex_rrhh_pgsql();
+        $stid = ejecutar_query($conn, $query);        
+        $option='';
+        
+        while ($fila = ejecutar_fetch_array($stid)){
+            
+            $option.= "<option value='". $fila['ccosto']."'" ;
+            $option.= ">". $fila['ccosto']." - ".$fila['detalle_ccosto']."</option>";
+        }
+        
+        
+        pg_free_result($stid);
+        pg_close($conn);
+         
+    return $option;
+
 
 }
 

@@ -14,7 +14,6 @@ db4="bdmatbitacora";
 db5="bdmatconstancia";
 db6="bdmatrrhh";
 db7="bdmatserviciomedico";
-db8="drupal";
 db9="bdmatasistencia_laboral";
 db10="bdmatcargas_sio";
 db11="bdmat_suministro_combustible";
@@ -71,9 +70,6 @@ echo $db6;
 PGPASSWORD=$pasw pg_dump -h $host -p $port -U $user -F c -v -d $db7 -f $PATH_BD/[$db7]_$date.sql;
 #cp $PATH_BD/\[$db7\]_$date.sql $PATH_BD/
 echo $db7;
-PGPASSWORD=$pasw pg_dump -h $host -p $port -U $user -F c -v -d $db8 -f $PATH_BD/[$db8]_$date.sql;
-#cp $PATH_BD/\[$db8\]_$date.sql $PATH_BD/
-echo $db8;
 PGPASSWORD=$pasw pg_dump -h $host -p $port -U $user -F c -v -d $db9 -f $PATH_BD/[$db9]_$date.sql;
 #cp $PATH_BD/\[$db9\]_$date.sql $PATH_BD/
 echo $db9;

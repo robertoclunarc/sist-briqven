@@ -191,10 +191,10 @@ function buscar($a, $b, $btn, $query_semana, $fecha, $trabajador) {
             }
 
             if (($row['autorizado1'] =='') || ($row['autorizado1'] =='NULL')){
-                if ($row['validado_stdlt'] =='0' or $row['validado_stdlt'] == NULL){
+                if ($row['validado_stdlt'] =='0' or $row['validado_stdlt'] == NULL) {
                      $buttonValidarSTDLT = '<button title="Validar ST y DLT" type="button" onclick="activar_sp('.$paramTrabFecha.',11, \''.'Validar ST y DLT'.'\')" class="btn btn-success btn-circle"><span class="glyphicon glyphicon-ok-sign"></span></button>';
                 }
-                if ($row['rechazado_stdlt'] =='0'){
+                if (($row['rechazado_stdlt'] =='0') || (($row['autorizado2'] !='') && ($row['autorizado2'] !='NULL'))){
                      $buttonRechazarSTDLT   = '<button title="Rechazar ST y DLT" type="button" onclick="activar_sp('.$paramTrabFecha.',12, \''.'Rechazar  ST y DLT'.'\')" class="btn btn-danger btn-circle"><span class="glyphicon glyphicon-time"></span></button>';
                 }
             }else{

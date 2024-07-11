@@ -1,0 +1,28 @@
+SELECT Cedula, ccure_fichadas.Nombre, Cargo, TipodePersonal, Fecha_Inicidencia,CONVERT(datetime,Fecha) AS fecha, Hora,        
+CASE   
+      WHEN Dia='Monday' THEN 'Lunes'
+      WHEN Dia='Tuesday' THEN 'Martes'
+      WHEN Dia='Wednesday' THEN 'Miercoles'
+      WHEN Dia='Thursday' THEN 'Jueves'
+      WHEN Dia='Friday' THEN 'Viernes'
+      WHEN Dia='Saturday' THEN 'Sabado'
+      ELSE  'Domingo'
+END as dia_semana,
+CASE   
+      WHEN ccure_fichadas.Direccion='InDirection' THEN 'ENTRADA'
+      ELSE  'SALIDA'
+END as direction,
+dbo.ADAM_DATOS_PERSONALES.DESC_CCOSTO,
+dbo.ADAM_DATOS_PERSONALES.GERENCIA,
+CASE   
+      WHEN dbo.ADAM_DATOS_PERSONALES.GERGRAL='Presidencia' THEN '1'
+      WHEN dbo.ADAM_DATOS_PERSONALES.GERGRAL='Gerencia General Industrial' THEN '2'
+      WHEN dbo.ADAM_DATOS_PERSONALES.GERGRAL='Gerencia de Calidad y Logística' THEN '2'
+      WHEN dbo.ADAM_DATOS_PERSONALES.GERGRAL='Gcia Seg Patrimonial' THEN '3'
+      ELSE  '4'
+END as GERGRAL 
+FROM ccure_fichadas, dbo.ADAM_DATOS_PERSONALES
+WHERE dbo.ccure_fichadas.Cedula=dbo.ADAM_DATOS_PERSONALES.Trabajador 
+AND ccure_fichadas.Direccion='InDirection' and CAST(fecha as datetime) BETWEEN '2024-04-21' AND '2024-04-21'
+	and hora > '05:15:00' and hora  <='16:00:00'
+order by GERGRAL,dbo.ADAM_DATOS_PERSONALES.GERENCIA, dbo.ADAM_DATOS_PERSONALES.DESC_CCOSTO, Fecha_Inicidencia desc

@@ -1,0 +1,1766 @@
+ <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------29 05 2024 12:05:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 438
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 440
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 17 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 16 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 32 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 439 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 16 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 3 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------30 05 2024 07:05:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 438
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 11 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 16 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 32 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 13 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 3 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------31 05 2024 07:05:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 0 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 29 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 15 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 3 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------01 06 2024 07:06:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 10 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 17 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 5 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------02 06 2024 07:06:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 0 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 17 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 5 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------03 06 2024 07:06:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 0 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 15 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 3 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------04 06 2024 07:06:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 15 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 15 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 3 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------05 06 2024 07:06:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 13 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 17 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 4 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------06 06 2024 07:06:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 18 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 14 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 4 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------07 06 2024 07:06:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 13 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 17 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 4 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------08 06 2024 07:06:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 12 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 17 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 4 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------09 06 2024 07:06:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 0 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 17 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 4 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------10 06 2024 07:06:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 0 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 17 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 4 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------11 06 2024 07:06:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 0 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 20 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 7 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------12 06 2024 07:06:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 0 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 20 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 7 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------13 06 2024 07:06:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 10 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 20 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 7 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------14 06 2024 07:06:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 10 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 20 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 7 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------15 06 2024 07:06:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 10 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 19 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 6 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------16 06 2024 07:06:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 0 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 19 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 6 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------17 06 2024 07:06:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 0 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 19 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 6 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------18 06 2024 07:06:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 12 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 19 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 6 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------19 06 2024 07:06:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 14 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 19 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 6 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------20 06 2024 07:06:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 14 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 14 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 19 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 6 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------21 06 2024 07:06:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 11 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 13 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 19 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 6 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------22 06 2024 07:06:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 10 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 13 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 19 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 6 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------23 06 2024 07:06:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 0 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 13 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 19 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 6 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> PHP Warning:  oci_connect(): ORA-12541: TNS:no listener in /var/www/html/cron/BD/conexiones.php on line 70
+PHP Fatal error:  ORA-12541: TNS:no listener in /var/www/html/cron/BD/conexiones.php on line 73
+ PHP Warning:  oci_connect(): ORA-12541: TNS:no listener in /var/www/html/cron/BD/conexiones.php on line 70
+PHP Fatal error:  ORA-12541: TNS:no listener in /var/www/html/cron/BD/conexiones.php on line 73
+ <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------26 06 2024 07:06:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 0 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 13 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 18 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 4 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------27 06 2024 07:06:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 8 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 13 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 18 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 4 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------28 06 2024 07:06:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 437
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 8 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 13 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 438 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 18 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 4 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> PHP Warning:  oci_connect(): ORA-12516: TNS:listener could not find available handler with matching protocol stack in /var/www/html/cron/BD/conexiones.php on line 70
+PHP Fatal error:  ORA-12516: TNS:listener could not find available handler with matching protocol stack in /var/www/html/cron/BD/conexiones.php on line 73
+ PHP Warning:  oci_connect(): ORA-12516: TNS:listener could not find available handler with matching protocol stack in /var/www/html/cron/BD/conexiones.php on line 70
+PHP Fatal error:  ORA-12516: TNS:listener could not find available handler with matching protocol stack in /var/www/html/cron/BD/conexiones.php on line 73
+ PHP Warning:  oci_connect(): ORA-12516: TNS:listener could not find available handler with matching protocol stack in /var/www/html/cron/BD/conexiones.php on line 70
+PHP Fatal error:  ORA-12516: TNS:listener could not find available handler with matching protocol stack in /var/www/html/cron/BD/conexiones.php on line 73
+ <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------02 07 2024 07:07:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 14 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 13 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 437 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 18 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 4 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------03 07 2024 07:07:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 17 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 13 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 437 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 17 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 4 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------04 07 2024 07:07:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 19 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 13 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 437 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 17 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 4 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------05 07 2024 07:07:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 19 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 13 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 437 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 15 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 3 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------06 07 2024 07:07:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 9 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 13 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 437 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 15 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 3 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------07 07 2024 07:07:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 7 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 13 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 437 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 12 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 3 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------08 07 2024 07:07:02 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 15 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 13 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 437 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 11 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 3 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------09 07 2024 07:07:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 21 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 13 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 437 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 11 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 3 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------10 07 2024 07:07:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 21 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 13 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 437 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 12 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 4 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body> <body bgcolor="black"><font color="white" face="Courier New,arial"> *-------11 07 2024 07:07:01 SE PROCESARAN 11 TAREAS:-------------------------------
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> BEGIN
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 1. RRHH: Migrando los Datos del Sistema Adam a Postgresql
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad de Altas: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 2. RRHH: Migrando desde ADAM nuevo ingreso
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Migrados: 0
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 3. Sistema Medico: Actualizar datos de pacientes
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Cantidad Pacientes Actualizados: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Se Actualizaron: 436
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 15 Fichadas. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Cambiados de esperanza: 13 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 26 No Requeridos. 
+
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 8. Respaldar Base de Datos
+
+<br></font></body>sh: 1: ./respaldar_DB.sh: not found
+<body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 9. Migrar Dotacion Briqven
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! Fueron Migrados: 437 Registro. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 10. Cambio de cuadrilla
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de cuadrilla de: 12 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Ejecutando Funcion: 11. Cambio de esperanza por sustituciones
+
+<br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> Resultado: Finalizado Con Exito! el cambio de esperanza por sustituciones de: 4 registros. 
+<br><br></font></body><body bgcolor="black"><font color="white" face="Courier New,arial"> END;
+<br></font></body>

@@ -1,0 +1,319 @@
+<table width="100%" border="1"><thead>
+				    <tr>
+					<td colspan="5" align="center">
+					    <h2><b>Reporte de entrada del personal del turno: 1, del 11-07-2024 de la Gerencia: Gerencia de Mantenimiento, <br>que ingresaron entre las 21:15:00 y 23:59:59 </b></h2>
+					</td>
+				    </tr>
+					</thead>
+						</table>
+					<br><br><table width="100%" border="1" style="font-size:12px">
+							    		<tr style="background-color:#c8190d;color:#ffffff;">
+										<th colspan="5" align="center"><b>Gerencia de Mantenimiento               </b></th>
+							    		</tr>
+					                    <tr>
+					                        <th width="5%">#</th>
+					                        <th width="10%">Cedula</th>
+					                        <th width="30%">Nombre</th>
+					                        <th width="45%">Cargo</th>
+					                        <th width="10%">Hora</th>
+					                    </tr> 
+					        	<tbody><tr style="background-color:#dadae4;"><td>1</td><td>16392613</td><td>RODRIGUEZ B, RANIER</td><td>SUPERVISOR DE MANTENIMIENTO</td><td>23:19:24</td></tr><tr><td width="5%">2</td><td width="10%">14775135</td><td width="30%">CONTRERAS Z, DENNY</td><td width="45%">MECANICO I</td><td width="10%">22:51:06</td></tr><tr style="background-color:#dadae4;"><td width="5%">3</td><td width="10%">17431835</td><td width="30%">PAEZ C, PEDRO</td><td width="45%">MECANICO SOLDADOR I</td><td width="10%">22:49:20</td></tr><tr><td width="5%">4</td><td width="10%">12005214</td><td width="30%">MEDINA Z, ALEXANDER</td><td width="45%">SUPERVISOR DE MANTENIMIENTO</td><td width="10%">22:49:17</td></tr><tr style="background-color:#dadae4;"><td width="5%">5</td><td width="10%">12133566</td><td width="30%">HENRIQUEZ F, DIONIS</td><td width="45%">MECANICO I</td><td width="10%">22:44:36</td></tr><tr><td width="5%">6</td><td width="10%">13334350</td><td width="30%">ESTABA G, YOANDRIS</td><td width="45%">MECANICO I</td><td width="10%">22:43:32</td></tr><tr style="background-color:#dadae4;"><td width="5%">7</td><td width="10%">13016226</td><td width="30%">ORONOZ P, CARLOS</td><td width="45%">ELECTRO/INSTRUMENTISTA I</td><td width="10%">22:43:13</td></tr><tr><td width="5%">8</td><td width="10%">18247920</td><td width="30%">BOLIVAR C, JUAN</td><td width="45%">INGENIERO ESPECIALISTA DE CONTROL I</td><td width="10%">22:50:54</td></tr><tr><td colspan="5"><b>Total por Gerencia de Mantenimiento               : 8</b></td></tr> </tbody></table><br><br><table width="100%" border="1" style="font-size:12px"><tr style="background-color:#c8190d;color:#ffffff;"><th colspan="6" align="center">
+									    Reporte de entrada del personal Por Control de Acceso 11-07-2024</th></tr><tr>
+						                <th width="5%">#</th>
+						                <th width="10%">Cedula</th>
+						                <th width="22%">Nombre</th>
+						                <th width="30%">Cargo</th>
+						                <th width="23%">Departamento</th>
+						                <th width="10%">Hora</th>
+						            </tr>
+						            <tbody></tbody><tr><th align="left" colspan="6">Trabajadores que ingresaron a la empresa por Control de Acceso: 0</th></tr></table><br><br><table width="100%" border="1" style="font-size:12px">
+					                                    <tr>
+					                                        <td colspan="5" align="center"><b>Total de trabajadores que ingresaron  a la empresa: 8</b></td>
+					                                    </tr>
+					                          </table><table width="100%" border="1"><thead>
+				    <tr>
+					<td colspan="5" align="center">
+					    <h2><b>Reporte de entrada del personal del turno: 1, del 11-07-2024 de la Gerencia: Gcia. de Operaciones y Procesos, <br>que ingresaron entre las 21:15:00 y 23:59:59 </b></h2>
+					</td>
+				    </tr>
+					</thead>
+						</table>
+					<br><br><table width="100%" border="1" style="font-size:12px">
+							    		<tr style="background-color:#c8190d;color:#ffffff;">
+										<th colspan="5" align="center"><b>Gcia. de Operaciones y Procesos         </b></th>
+							    		</tr>
+					                    <tr>
+					                        <th width="5%">#</th>
+					                        <th width="10%">Cedula</th>
+					                        <th width="30%">Nombre</th>
+					                        <th width="45%">Cargo</th>
+					                        <th width="10%">Hora</th>
+					                    </tr> 
+					        	<tbody><tr style="background-color:#dadae4;"><td>1</td><td>16944971</td><td>AVILA V, RONNY</td><td>JEFE DE PLANTA.</td><td>23:20:05</td></tr><tr><td width="5%">2</td><td width="10%">8881790</td><td width="30%">FLORES R, GREGORIO</td><td width="45%">OPERADOR DE SERVICIOS AUXILIARES III</td><td width="10%">23:19:43</td></tr><tr style="background-color:#dadae4;"><td width="5%">3</td><td width="10%">12188150</td><td width="30%">GUZMAN G, OSCAR</td><td width="45%">OPERADOR DE BRIQUETEADORA III</td><td width="10%">22:51:20</td></tr><tr><td width="5%">4</td><td width="10%">5339584</td><td width="30%">MARICHALES M, FREDDY</td><td width="45%">ESPECIALISTA DE  SALA DE CONTROL</td><td width="10%">22:51:13</td></tr><tr style="background-color:#dadae4;"><td width="5%">5</td><td width="10%">17253396</td><td width="30%">BRUCES M, CESAR</td><td width="45%">OPERADOR DE MANEJO DE PRODUCTOS I</td><td width="10%">22:47:41</td></tr><tr><td width="5%">6</td><td width="10%">11512626</td><td width="30%">SULBARAN F, KELVYN</td><td width="45%">OPERADOR DE MAQUILLADO I</td><td width="10%">22:44:27</td></tr><tr style="background-color:#dadae4;"><td width="5%">7</td><td width="10%">16722078</td><td width="30%">AGUILERA R, GERSON</td><td width="45%">OPERADOR DE REFORMACION III</td><td width="10%">22:43:04</td></tr><tr><td width="5%">8</td><td width="10%">8935249</td><td width="30%">RODRIGUEZ G, NESTOR</td><td width="45%">OPERADOR MANEJO DE MINERALES I</td><td width="10%">22:41:07</td></tr><tr style="background-color:#dadae4;"><td width="5%">9</td><td width="10%">12652102</td><td width="30%">VILLALBA B, JOSE</td><td width="45%">OPERADOR DE REDUCCION II</td><td width="10%">22:41:03</td></tr><tr><td colspan="5"><b>Total por Gcia. de Operaciones y Procesos         : 9</b></td></tr> </tbody></table><br><br><table width="100%" border="1" style="font-size:12px"><tr style="background-color:#c8190d;color:#ffffff;"><th colspan="6" align="center">
+									    Reporte de entrada del personal Por Control de Acceso 11-07-2024</th></tr><tr>
+						                <th width="5%">#</th>
+						                <th width="10%">Cedula</th>
+						                <th width="22%">Nombre</th>
+						                <th width="30%">Cargo</th>
+						                <th width="23%">Departamento</th>
+						                <th width="10%">Hora</th>
+						            </tr>
+						            <tbody></tbody><tr><th align="left" colspan="6">Trabajadores que ingresaron a la empresa por Control de Acceso: 0</th></tr></table><br><br><table width="100%" border="1" style="font-size:12px">
+					                                    <tr>
+					                                        <td colspan="5" align="center"><b>Total de trabajadores que ingresaron  a la empresa: 9</b></td>
+					                                    </tr>
+					                          </table><table width="100%" border="1"><thead>
+				    <tr>
+					<td colspan="5" align="center">
+					    <h2><b>Reporte de entrada del personal del turno: 1, del 11-07-2024 de la Gerencia: Gerencia General Industrial, <br>que ingresaron entre las 21:15:00 y 23:59:59 </b></h2>
+					</td>
+				    </tr>
+					</thead>
+						</table>
+					<br><br><table width="100%" border="1" style="font-size:12px">
+							    		<tr style="background-color:#c8190d;color:#ffffff;">
+										<th colspan="5" align="center"><b>Gerencia General Industrial             </b></th>
+							    		</tr>
+					                    <tr>
+					                        <th width="5%">#</th>
+					                        <th width="10%">Cedula</th>
+					                        <th width="30%">Nombre</th>
+					                        <th width="45%">Cargo</th>
+					                        <th width="10%">Hora</th>
+					                    </tr> 
+					        	<tbody><tr style="background-color:#dadae4;"><td>1</td><td>9948280</td><td>MARTINEZ B, SANTIAGO</td><td>TECNICO DE LIMPIEZA INDUSTRIAL I</td><td>23:19:38</td></tr><tr><td width="5%">2</td><td width="10%">13443264</td><td width="30%">GARCIA S, JOSE</td><td width="45%">ALMACENISTA DE HERRAMIENTAS I</td><td width="10%">22:51:00</td></tr><tr style="background-color:#dadae4;"><td width="5%">3</td><td width="10%">15874049</td><td width="30%">AMUNDARAY, ARQUIMEDEZ</td><td width="45%">TECNICO DE LIMPIEZA INDUSTRIAL I</td><td width="10%">22:50:57</td></tr><tr><td width="5%">4</td><td width="10%">8484985</td><td width="30%">GARCIA O, SAMUEL</td><td width="45%">TECNICO DE LIMPIEZA INDUSTRIAL I</td><td width="10%">22:43:19</td></tr><tr style="background-color:#dadae4;"><td width="5%">5</td><td width="10%">14118870</td><td width="30%">FLORES, JERSON</td><td width="45%">SUPERVISOR DE LIMPIEZA INDUSTRIAL</td><td width="10%">22:41:11</td></tr><tr><td colspan="5"><b>Total por Gerencia General Industrial             : 5</b></td></tr> </tbody></table><br><br><table width="100%" border="1" style="font-size:12px"><tr style="background-color:#c8190d;color:#ffffff;"><th colspan="6" align="center">
+									    Reporte de entrada del personal Por Control de Acceso 11-07-2024</th></tr><tr>
+						                <th width="5%">#</th>
+						                <th width="10%">Cedula</th>
+						                <th width="22%">Nombre</th>
+						                <th width="30%">Cargo</th>
+						                <th width="23%">Departamento</th>
+						                <th width="10%">Hora</th>
+						            </tr>
+						            <tbody></tbody><tr><th align="left" colspan="6">Trabajadores que ingresaron a la empresa por Control de Acceso: 0</th></tr></table><br><br><table width="100%" border="1" style="font-size:12px">
+					                                    <tr>
+					                                        <td colspan="5" align="center"><b>Total de trabajadores que ingresaron  a la empresa: 5</b></td>
+					                                    </tr>
+					                          </table><table width="100%" border="1"><thead>
+				    <tr>
+					<td colspan="5" align="center">
+					    <h2><b>Reporte de entrada del personal del turno: 1, del 11-07-2024 de la Gerencia: Gerencia de Seguridad y Salud Laboral, <br>que ingresaron entre las 21:15:00 y 23:59:59 </b></h2>
+					</td>
+				    </tr>
+					</thead>
+						</table>
+					<br><br><table width="100%" border="1" style="font-size:12px">
+							    		<tr style="background-color:#c8190d;color:#ffffff;">
+										<th colspan="5" align="center"><b>Gerencia de Seguridad y Salud Laboral   </b></th>
+							    		</tr>
+					                    <tr>
+					                        <th width="5%">#</th>
+					                        <th width="10%">Cedula</th>
+					                        <th width="30%">Nombre</th>
+					                        <th width="45%">Cargo</th>
+					                        <th width="10%">Hora</th>
+					                    </tr> 
+					        	<tbody><tr style="background-color:#dadae4;"><td>1</td><td>19911467</td><td>ROMERO C, ABILMER</td><td>TECNICO DE CONTROL DE EMERGENCIAS I</td><td>22:49:09</td></tr><tr><td width="5%">2</td><td width="10%">8930338</td><td width="30%">GONZALEZ D, ANA</td><td width="45%">ENFERMERA I</td><td width="10%">22:44:56</td></tr><tr style="background-color:#dadae4;"><td width="5%">3</td><td width="10%">27077578</td><td width="30%">SALAZAR M, NELKARIS</td><td width="45%">TECNICO DE HIGIENE Y SEGURIDAD I</td><td width="10%">22:36:15</td></tr><tr><td colspan="5"><b>Total por Gerencia de Seguridad y Salud Laboral   : 3</b></td></tr> </tbody></table><br><br><table width="100%" border="1" style="font-size:12px"><tr style="background-color:#c8190d;color:#ffffff;"><th colspan="6" align="center">
+									    Reporte de entrada del personal Por Control de Acceso 11-07-2024</th></tr><tr>
+						                <th width="5%">#</th>
+						                <th width="10%">Cedula</th>
+						                <th width="22%">Nombre</th>
+						                <th width="30%">Cargo</th>
+						                <th width="23%">Departamento</th>
+						                <th width="10%">Hora</th>
+						            </tr>
+						            <tbody></tbody><tr><th align="left" colspan="6">Trabajadores que ingresaron a la empresa por Control de Acceso: 0</th></tr></table><br><br><table width="100%" border="1" style="font-size:12px">
+					                                    <tr>
+					                                        <td colspan="5" align="center"><b>Total de trabajadores que ingresaron  a la empresa: 3</b></td>
+					                                    </tr>
+					                          </table><table width="100%" border="1"><thead>
+				    <tr>
+					<td colspan="5" align="center">
+					    <h2><b>Reporte de entrada del personal del turno: 1, del 11-07-2024 de la Gerencia: Gerencia de Abastecimiento, <br>que ingresaron entre las 21:15:00 y 23:59:59 </b></h2>
+					</td>
+				    </tr>
+					</thead>
+						</table>
+					<br><br><table width="100%" border="1" style="font-size:12px">
+							    		<tr style="background-color:#c8190d;color:#ffffff;">
+										<th colspan="5" align="center"><b>Gerencia de Abastecimiento              </b></th>
+							    		</tr>
+					                    <tr>
+					                        <th width="5%">#</th>
+					                        <th width="10%">Cedula</th>
+					                        <th width="30%">Nombre</th>
+					                        <th width="45%">Cargo</th>
+					                        <th width="10%">Hora</th>
+					                    </tr> 
+					        	<tbody><tr style="background-color:#dadae4;"><td>1</td><td>27644484</td><td>DIAZ H, MARIANGEL</td><td>ALMACENISTA I</td><td>22:44:30</td></tr><tr><td colspan="5"><b>Total por Gerencia de Abastecimiento              : 1</b></td></tr> </tbody></table><br><br><table width="100%" border="1" style="font-size:12px"><tr style="background-color:#c8190d;color:#ffffff;"><th colspan="6" align="center">
+									    Reporte de entrada del personal Por Control de Acceso 11-07-2024</th></tr><tr>
+						                <th width="5%">#</th>
+						                <th width="10%">Cedula</th>
+						                <th width="22%">Nombre</th>
+						                <th width="30%">Cargo</th>
+						                <th width="23%">Departamento</th>
+						                <th width="10%">Hora</th>
+						            </tr>
+						            <tbody></tbody><tr><th align="left" colspan="6">Trabajadores que ingresaron a la empresa por Control de Acceso: 0</th></tr></table><br><br><table width="100%" border="1" style="font-size:12px">
+					                                    <tr>
+					                                        <td colspan="5" align="center"><b>Total de trabajadores que ingresaron  a la empresa: 1</b></td>
+					                                    </tr>
+					                          </table><table width="100%" border="1"><thead>
+				    <tr>
+					<td colspan="5" align="center">
+					    <h2><b>Reporte de entrada del personal del turno: 1, del 11-07-2024 de la Gerencia: Gerencia de Talento Humano, <br>que ingresaron entre las 21:15:00 y 23:59:59 </b></h2>
+					</td>
+				    </tr>
+					</thead>
+						</table>
+					<tr><td colspan="5"><b>Total por : 0</b></td></tr> </tbody></table><br><br><table width="100%" border="1" style="font-size:12px"><tr style="background-color:#c8190d;color:#ffffff;"><th colspan="6" align="center">
+									    Reporte de entrada del personal Por Control de Acceso 11-07-2024</th></tr><tr>
+						                <th width="5%">#</th>
+						                <th width="10%">Cedula</th>
+						                <th width="22%">Nombre</th>
+						                <th width="30%">Cargo</th>
+						                <th width="23%">Departamento</th>
+						                <th width="10%">Hora</th>
+						            </tr>
+						            <tbody></tbody><tr><th align="left" colspan="6">Trabajadores que ingresaron a la empresa por Control de Acceso: 0</th></tr></table><br><br><table width="100%" border="1" style="font-size:12px">
+					                                    <tr>
+					                                        <td colspan="5" align="center"><b>Total de trabajadores que ingresaron  a la empresa: 0</b></td>
+					                                    </tr>
+					                          </table><table width="100%" border="1"><thead>
+				    <tr>
+					<td colspan="5" align="center">
+					    <h2><b>Reporte de entrada del personal del turno: 1, del 11-07-2024 de la Gerencia: Gcia de Planif Gestion e ing Ind, <br>que ingresaron entre las 21:15:00 y 23:59:59 </b></h2>
+					</td>
+				    </tr>
+					</thead>
+						</table>
+					<tr><td colspan="5"><b>Total por : 0</b></td></tr> </tbody></table><br><br><table width="100%" border="1" style="font-size:12px"><tr style="background-color:#c8190d;color:#ffffff;"><th colspan="6" align="center">
+									    Reporte de entrada del personal Por Control de Acceso 11-07-2024</th></tr><tr>
+						                <th width="5%">#</th>
+						                <th width="10%">Cedula</th>
+						                <th width="22%">Nombre</th>
+						                <th width="30%">Cargo</th>
+						                <th width="23%">Departamento</th>
+						                <th width="10%">Hora</th>
+						            </tr>
+						            <tbody></tbody><tr><th align="left" colspan="6">Trabajadores que ingresaron a la empresa por Control de Acceso: 0</th></tr></table><br><br><table width="100%" border="1" style="font-size:12px">
+					                                    <tr>
+					                                        <td colspan="5" align="center"><b>Total de trabajadores que ingresaron  a la empresa: 0</b></td>
+					                                    </tr>
+					                          </table><table width="100%" border="1"><thead>
+				    <tr>
+					<td colspan="5" align="center">
+					    <h2><b>Reporte de entrada del personal del turno: 1, del 11-07-2024 de la Gerencia: Gerencia Proyectos Ing. de Planta, <br>que ingresaron entre las 21:15:00 y 23:59:59 </b></h2>
+					</td>
+				    </tr>
+					</thead>
+						</table>
+					<tr><td colspan="5"><b>Total por : 0</b></td></tr> </tbody></table><br><br><table width="100%" border="1" style="font-size:12px"><tr style="background-color:#c8190d;color:#ffffff;"><th colspan="6" align="center">
+									    Reporte de entrada del personal Por Control de Acceso 11-07-2024</th></tr><tr>
+						                <th width="5%">#</th>
+						                <th width="10%">Cedula</th>
+						                <th width="22%">Nombre</th>
+						                <th width="30%">Cargo</th>
+						                <th width="23%">Departamento</th>
+						                <th width="10%">Hora</th>
+						            </tr>
+						            <tbody></tbody><tr><th align="left" colspan="6">Trabajadores que ingresaron a la empresa por Control de Acceso: 0</th></tr></table><br><br><table width="100%" border="1" style="font-size:12px">
+					                                    <tr>
+					                                        <td colspan="5" align="center"><b>Total de trabajadores que ingresaron  a la empresa: 0</b></td>
+					                                    </tr>
+					                          </table><table width="100%" border="1"><thead>
+				    <tr>
+					<td colspan="5" align="center">
+					    <h2><b>Reporte de entrada del personal del turno: 1, del 11-07-2024 de la Gerencia: Gcia Relaciones Instit y Desarrollo Endo, <br>que ingresaron entre las 21:15:00 y 23:59:59 </b></h2>
+					</td>
+				    </tr>
+					</thead>
+						</table>
+					<tr><td colspan="5"><b>Total por : 0</b></td></tr> </tbody></table><br><br><table width="100%" border="1" style="font-size:12px"><tr style="background-color:#c8190d;color:#ffffff;"><th colspan="6" align="center">
+									    Reporte de entrada del personal Por Control de Acceso 11-07-2024</th></tr><tr>
+						                <th width="5%">#</th>
+						                <th width="10%">Cedula</th>
+						                <th width="22%">Nombre</th>
+						                <th width="30%">Cargo</th>
+						                <th width="23%">Departamento</th>
+						                <th width="10%">Hora</th>
+						            </tr>
+						            <tbody></tbody><tr><th align="left" colspan="6">Trabajadores que ingresaron a la empresa por Control de Acceso: 0</th></tr></table><br><br><table width="100%" border="1" style="font-size:12px">
+					                                    <tr>
+					                                        <td colspan="5" align="center"><b>Total de trabajadores que ingresaron  a la empresa: 0</b></td>
+					                                    </tr>
+					                          </table><table width="100%" border="1"><thead>
+				    <tr>
+					<td colspan="5" align="center">
+					    <h2><b>Reporte de entrada del personal del turno: 1, del 11-07-2024 de la Gerencia: Gerencia de Calidad y Log√≠stica, <br>que ingresaron entre las 21:15:00 y 23:59:59 </b></h2>
+					</td>
+				    </tr>
+					</thead>
+						</table>
+					<br><br><table width="100%" border="1" style="font-size:12px">
+							    		<tr style="background-color:#c8190d;color:#ffffff;">
+										<th colspan="5" align="center"><b>Gerencia de Calidad y LogÌstica         </b></th>
+							    		</tr>
+					                    <tr>
+					                        <th width="5%">#</th>
+					                        <th width="10%">Cedula</th>
+					                        <th width="30%">Nombre</th>
+					                        <th width="45%">Cargo</th>
+					                        <th width="10%">Hora</th>
+					                    </tr> 
+					        	<tbody><tr style="background-color:#dadae4;"><td>1</td><td>15543312</td><td>RODRIGUEZ V, DIEGO</td><td>TECNICO DE LABORATORIO FISICO III</td><td>22:51:24</td></tr><tr><td width="5%">2</td><td width="10%">12893017</td><td width="30%">MARIN M, ORANGEL</td><td width="45%">SUPERVISOR DE LABORATORIO</td><td width="10%">22:43:16</td></tr><tr style="background-color:#dadae4;"><td width="5%">3</td><td width="10%">9949859</td><td width="30%">DIAZ A, LUIS</td><td width="45%">TECNICO DE LABORATORIO FISICO I</td><td width="10%">22:43:09</td></tr><tr><td width="5%">4</td><td width="10%">12644773</td><td width="30%">ALVAREZ G, ANTONIO</td><td width="45%">OPERADOR DE BALANZA I</td><td width="10%">22:51:28</td></tr><tr><td colspan="5"><b>Total por Gerencia de Calidad y LogÌstica         : 4</b></td></tr> </tbody></table><br><br><table width="100%" border="1" style="font-size:12px"><tr style="background-color:#c8190d;color:#ffffff;"><th colspan="6" align="center">
+									    Reporte de entrada del personal Por Control de Acceso 11-07-2024</th></tr><tr>
+						                <th width="5%">#</th>
+						                <th width="10%">Cedula</th>
+						                <th width="22%">Nombre</th>
+						                <th width="30%">Cargo</th>
+						                <th width="23%">Departamento</th>
+						                <th width="10%">Hora</th>
+						            </tr>
+						            <tbody></tbody><tr><th align="left" colspan="6">Trabajadores que ingresaron a la empresa por Control de Acceso: 0</th></tr></table><br><br><table width="100%" border="1" style="font-size:12px">
+					                                    <tr>
+					                                        <td colspan="5" align="center"><b>Total de trabajadores que ingresaron  a la empresa: 4</b></td>
+					                                    </tr>
+					                          </table><table width="100%" border="1"><thead>
+				    <tr>
+					<td colspan="5" align="center">
+					    <h2><b>Reporte de entrada del personal del turno: 1, del 11-07-2024 de la Gerencia: Gerencia General de Administraci√≥n, <br>que ingresaron entre las 21:15:00 y 23:59:59 </b></h2>
+					</td>
+				    </tr>
+					</thead>
+						</table>
+					<tr><td colspan="5"><b>Total por : 0</b></td></tr> </tbody></table><br><br><table width="100%" border="1" style="font-size:12px"><tr style="background-color:#c8190d;color:#ffffff;"><th colspan="6" align="center">
+									    Reporte de entrada del personal Por Control de Acceso 11-07-2024</th></tr><tr>
+						                <th width="5%">#</th>
+						                <th width="10%">Cedula</th>
+						                <th width="22%">Nombre</th>
+						                <th width="30%">Cargo</th>
+						                <th width="23%">Departamento</th>
+						                <th width="10%">Hora</th>
+						            </tr>
+						            <tbody></tbody><tr><th align="left" colspan="6">Trabajadores que ingresaron a la empresa por Control de Acceso: 0</th></tr></table><br><br><table width="100%" border="1" style="font-size:12px">
+					                                    <tr>
+					                                        <td colspan="5" align="center"><b>Total de trabajadores que ingresaron  a la empresa: 0</b></td>
+					                                    </tr>
+					                          </table><table width="100%" border="1"><thead>
+				    <tr>
+					<td colspan="5" align="center">
+					    <h2><b>Reporte de entrada del personal del turno: 1, del 11-07-2024 de la Gerencia: Gerencia de Administraci√≥n y Finanzas   , <br>que ingresaron entre las 21:15:00 y 23:59:59 </b></h2>
+					</td>
+				    </tr>
+					</thead>
+						</table>
+					<tr><td colspan="5"><b>Total por : 0</b></td></tr> </tbody></table><br><br><table width="100%" border="1" style="font-size:12px"><tr style="background-color:#c8190d;color:#ffffff;"><th colspan="6" align="center">
+									    Reporte de entrada del personal Por Control de Acceso 11-07-2024</th></tr><tr>
+						                <th width="5%">#</th>
+						                <th width="10%">Cedula</th>
+						                <th width="22%">Nombre</th>
+						                <th width="30%">Cargo</th>
+						                <th width="23%">Departamento</th>
+						                <th width="10%">Hora</th>
+						            </tr>
+						            <tbody></tbody><tr><th align="left" colspan="6">Trabajadores que ingresaron a la empresa por Control de Acceso: 0</th></tr></table><br><br><table width="100%" border="1" style="font-size:12px">
+					                                    <tr>
+					                                        <td colspan="5" align="center"><b>Total de trabajadores que ingresaron  a la empresa: 0</b></td>
+					                                    </tr>
+					                          </table>

@@ -47,6 +47,9 @@ switch ($_SESSION['nivel_const']) {
                 {
                                 $barra.='<li>
                                     <a href="cargar_movimiento.php">Movimiento Temporales</a> 
+                                </li>
+                                <li>
+                                    <a href="cargar_movimiento_indeterminado.php">Movimiento Permanente</a> 
                                 </li>';
                 }                 
                                 $barra.='<li>
@@ -228,7 +231,10 @@ switch ($_SESSION['nivel_const']) {
                 if ((permiso_usuario($linkMenu, 'REALIZAR', 'cambio_turno', $_SESSION['user_session_const'])) )
                 {
                                 $barra.='<li>
-                                    <a href="cargar_movimiento.php">Cambio Esperanza</a> 
+                                    <a href="cargar_movimiento.php">Movimiento Temporales</a> 
+                                </li>
+                                <li>
+                                    <a href="cargar_movimiento_indeterminado.php">Movimiento Permanente</a> 
                                 </li>';
                 }                                  
                                 $barra.='<li>
@@ -385,7 +391,10 @@ switch ($_SESSION['nivel_const']) {
                                 if ((permiso_usuario($linkMenu, 'REALIZAR', 'cambio_turno', $_SESSION['user_session_const'])) )
                                 {
                                 $barra.='<li>
-                                    <a href="cambio_turno.php">Cambio de Esperanza</a> 
+                                    <a href="cargar_movimiento.php">Movimiento Temporales</a> 
+                                </li>
+                                <li>
+                                    <a href="cargar_movimiento_indeterminado.php">Movimiento Permanente</a> 
                                 </li>';
                                 }                                 
                 if ((permiso_usuario($linkMenu, 'AUTORIZAR', 'STDLT', $_SESSION['user_session_const'])) || (permiso_usuario($linkMenu, 'TODO', 'STDLT', $_SESSION['user_session_const'])))

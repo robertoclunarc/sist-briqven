@@ -18,27 +18,28 @@
         $option1=llenar_combo_trabajadores_del_supervisor();
     }     
       
-      $link2=Conex_rrhh_pgsql();
-      if ($_SESSION['nivel_const']==1  || $acceso){
-        $query="SELECT descripcion_unidad, centro_costo FROM unidades Order By descripcion_unidad;";
-      }
-      else{
-        $query="SELECT descripcion_unidad, centro_costo FROM unidades WHERE centro_costo='".$_SESSION['ccosto']."'  Order By descripcion_unidad;";
-      }
+    $link2=Conex_rrhh_pgsql();
+    if ($_SESSION['nivel_const']==1  || $acceso){
+      $query="SELECT descripcion_unidad, centro_costo FROM unidades Order By descripcion_unidad;";
       $result2 = ejecutar_query($link2, $query) or die("Error en la Consulta SQL: ".$query);
       $numReg = ejecutar_num_rows($result2);
       if($numReg>0){
-            $option2='';
-            while ($fila=ejecutar_fetch_array($result2)) 
-            {
-                $option2.= "<option value='". $fila['centro_costo']."'>" ;
-                $option2.= $fila['centro_costo']." - ".$fila['descripcion_unidad']. "</option>";
-            }
+        $option2='';
+        while ($fila=ejecutar_fetch_array($result2)) 
+        {
+          $option2.= "<option value='". $fila['centro_costo']."'>" ;
+          $option2.= $fila['centro_costo']." - ".$fila['descripcion_unidad']. "</option>";
+        }
       }
       
       pg_free_result($result2);
-      pg_close($link1);
-      pg_close($link2);
+    }
+    else{
+      $option2= llenar_combo_ccosto_del_supervisor();
+    }
+    
+    pg_close($link1);
+    pg_close($link2);
 
     $fecha_a =date("Y-m-d");
     $fecha_actual = date("Y-m-d",strtotime($fecha_a."- 1 days"));

@@ -166,20 +166,26 @@ session_start();
 						if ($row["autorizado1"]!=''){
 	                    	$inpt .='<td width="5%" style="text-align: center"><h6><input type="hidden" name="autorizado2[]" value="'.$row['autorizado2'].'"></input>Aprobado</h6></td>'; 
 	                    }else{
-	                    	if ($row["validado_stdlt"]!='' && $row["validado_stdlt"]!='NULL' && $row["validado_stdlt"]!='0' ){
-	                    	    $inpt .='<td width="5%" style="text-align: center"><h6><input type="hidden" name="autorizado2[]" value="'.$row['autorizado2'].'"></input>Validado</h6></td>'; 
-	                    	}else{
-	                    		if($row["rechazado_stdlt"]!=0){
-									$inpt .='<td width="5%" style="text-align: center"><h6>Rechazado</h6></td>';
-	                    		}else{
-									if ($row["autorizado2"]!=''){
-										//$inpt .='<td width="5%" style="text-align: center"><h6><input type="hidden" name="autorizado2[]" value="'.$row['autorizado2'].'"></input><i class="fa fa-check" aria-hidden="true"></i></h6></td>'; 
-										$inpt .='<td width="5%" style="text-align: center"><h6><input type="hidden" name="autorizado2[]" value="'.$row['autorizado2'].'"></input>Autorizado</h6></td>'; 
-						 			}else{
-										$inpt .='<td width="5%"><h6><input type="hidden" name="autorizado2[]" value="'.$row['autorizado2'].'"></input></h6>&nbsp;</td>'; 
-									}	  
-								}                  		
-	                    	}	
+	                    	if ($row["autorizado2"]!=''){
+								$inpt .='<td width="5%" style="text-align: center"><h6><input type="hidden" name="autorizado2[]" value="'.$row['autorizado2'].'"></input>Autorizado</h6></td>'; 
+						 	}else{	                    		
+		                    	if ($row["validado_stdlt"]!='' && $row["validado_stdlt"]!='NULL' && $row["validado_stdlt"]!='0' ){
+		                    	    $inpt .='<td width="5%" style="text-align: center"><h6><input type="hidden" name="autorizado2[]" value="'.$row['autorizado2'].'"></input>Validado</h6></td>'; 
+		                    	}else{
+		                    		if($row["rechazado_stdlt"]!=0){
+										$inpt .='<td width="5%" style="text-align: center"><h6>Rechazado</h6></td>';
+									}else{
+										$inpt .='<td width="5%"><h6><input type="hidden" name="autorizado2[]" value="'.$row['autorizado2'].'"></input>Cargado</h6></td>'; 
+									/*}else{
+										if ($row["autorizado2"]!=''){
+											//$inpt .='<td width="5%" style="text-align: center"><h6><input type="hidden" name="autorizado2[]" value="'.$row['autorizado2'].'"></input><i class="fa fa-check" aria-hidden="true"></i></h6></td>'; 
+											$inpt .='<td width="5%" style="text-align: center"><h6><input type="hidden" name="autorizado2[]" value="'.$row['autorizado2'].'"></input>Autorizado</h6></td>'; 
+							 			}else{
+											$inpt .='<td width="5%"><h6><input type="hidden" name="autorizado2[]" value="'.$row['autorizado2'].'"></input></h6>&nbsp;</td>'; 
+										}*/	  
+									}                  		
+		                    	}	
+		                    }
 	                    }	
 	                    $inpt .='<td width="5%"><h6><input type="hidden" name="responsable_carga[]" value="'.$responsbale_carga.'"></input>'.$responsbale_carga.'</h6></td>'; 
 	                    $inpt .='</tr>';                        

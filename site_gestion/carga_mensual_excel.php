@@ -94,6 +94,139 @@ $nuevafecha = date ( 'Y-m-d' , $nuevafecha );
     </tr>    
 </table>
 <p>&nbsp;</p>    
+<table width="80%" border="1">
+  <label>Ejemplo de como debe estar estructurado el archivo:</label>
+      <tr>      
+      <td>Fila/Colunma</td>
+      <td align="center"><b>A</b></td>
+      <td align="center"><b>B</b></td>
+      <td align="center"><b>C</b></td>
+      <td align="center"><b>D</b></td>
+      <td align="center"><b>E</b></td>            
+      <td align="center"><b>F</b></td>
+      <td align="center"><b>G</b></td>
+      <td align="center"><b>H</b> </td>
+      <td align="center"><b>I</b></td>
+      <td align="center"><b>J</b></td>
+      <td align="center">...</td>
+      <!--<td>&nbsp;</td>-->
+    </tr> 
+    <tr>      
+      <td align="center">27</td>
+      <td>Día</td>
+      <td>Fecha</td>
+      <td>Tiempo Disponible</td>
+      <td>Parada Programada</td>
+      <td>Demoras</td>            
+      <td>Tiempo efectivo</td>
+      <td>Productividad</td>
+      <td>Producción </td>
+      <td>finos de HBC</td>
+      <td>Produccion de 1°</td>
+      <td>...</td>
+      <!--<td>&nbsp;</td>-->
+    </tr>    
+    <tr align="center">  
+      <td>28</td>    
+      <td>Lunes</td>
+      <td>2024-01-01</td>
+      <td align="center">0</td>
+      <td></td>
+      <td align="center">0</td>
+      <td align="center">0</td>
+      <td align="center">0</td>
+      <td align="center">-</td>      
+      <td align="center">-</td>
+      <td align="center">-</td>
+      <td>...</td>
+    </tr> 
+    <tr align="center">      
+      <td align="center">29</td>
+      <td>Martes</td>
+      <td>2024-01-02</td>
+      <td align="center">0</td>
+      <td></td>
+      <td align="center">0</td>
+      <td align="center">0</td>
+      <td align="center">0</td>
+      <td align="center">-</td>      
+      <td align="center">-</td>
+      <td align="center">-</td>
+      <td>...</td>
+    </tr>    
+    <tr align="center">  
+      <td>30</td>    
+      <td>Lunes</td>
+      <td>2024-01-03</td>
+      <td align="center">24</td>
+      <td></td>
+      <td align="center">1,68</td>
+      <td align="center">22,32</td>
+      <td align="center">40</td>
+      <td align="center">893</td>      
+      <td align="center">80,35</td>
+      <td align="center">812</td>
+      <td>...</td>
+    </tr> 
+    <tr align="center">      
+      <td align="center">31</td>
+      <td>Martes</td>
+      <td>2024-01-04</td>
+      <td align="center">24</td>
+      <td></td>
+      <td align="center">1,68</td>
+      <td align="center">22,32</td>
+      <td align="center">45</td>
+      <td align="center">1004</td>      
+      <td align="center">90,4</td>
+      <td align="center">914</td>
+      <td>...</td>
+    </tr>    
+
+    <tr>      
+      <td align="center">...</td>
+      <td align="center">...</td>
+      <td align="center">...</td>
+      <td align="center">...</td>
+      <td align="center">...</td>
+      <td align="center">...</td>
+      <td align="center">...</td>
+      <td align="center">...</td>
+      <td align="center">...</td>      
+      <td align="center">...</td>
+      <td align="center">...</td>
+      <td align="center">...</td>
+    </tr>   
+    <tr align="center">      
+      <td align="center">57</td>
+      <td>Martes</td>
+      <td>2024-01-30</td>
+      <td align="center">24</td>
+      <td></td>
+      <td align="center">1,68</td>
+      <td align="center">22,32</td>
+      <td align="center">45</td>
+      <td align="center">1004</td>      
+      <td align="center">90,4</td>
+      <td align="center">914</td>
+      <td>...</td>
+    </tr>    
+    <tr align="center">      
+      <td align="center">58</td>
+      <td>Miercoles</td>
+      <td>2024-01-31</td>
+      <td align="center">24</td>
+      <td></td>
+      <td align="center">1,68</td>
+      <td align="center">22,32</td>
+      <td align="center">45</td>
+      <td align="center">1004</td>      
+      <td align="center">90,4</td>
+      <td align="center">914</td>
+      <td>...</td>
+    </tr>  
+</table>
+<p>&nbsp;</p>    
 <div id="ver" class="col-lg-12"></div>
 <table class="" width="100%" id="tblGuardar" align="center">  
   <tr>

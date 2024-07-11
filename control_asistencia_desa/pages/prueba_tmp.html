@@ -1,0 +1,251 @@
+<table border="1" width="90%">
+    <tbody><tr>
+      <td width="5%"> 
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="rdPermiso" id="rdPermiso1" value="PERMISO" onclick="mostrar_codigos()" checked="">
+          <label class="form-check-label" for="rdPermiso1">
+            Permiso
+          </label>
+        </div>        
+      </td>
+      
+      <td width="15%"> <div class="form-check">
+          <input class="form-check-input" type="radio" name="rdPermiso" id="rdPermiso2" value="AUSENCIA" onclick="mostrar_codigos()">
+          <label class="form-check-label" for="rdPermiso2">
+            Ausencia
+          </label>
+        </div>
+      </td> 
+      <td width="1%"> &nbsp;</td>  
+      <td width="5%"> &nbsp;</td> 
+      <td width="15%"> &nbsp;</td>   
+      <td width="1%"> &nbsp;</td> 
+      <td width="5%"> &nbsp;</td>
+      <td width="15%"> &nbsp;</td>
+      <td width="1%"> &nbsp;</td>
+      <td width="5%"> &nbsp;</td>         
+    </tr>
+
+    <tr>
+      <td> &nbsp;</td>  
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td>   
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>         
+    </tr>
+    
+    <tr>
+       <td><label>Trabajador:</label></td>
+       <td><div class="col-xs-10"><div class="btn-group bootstrap-select" style="width: 100%;"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" role="button" data-id="cbotrabajador" title="20934391 - ABREU M ADRIANA DEL VALLE"><span class="filter-option pull-left">20934391 - ABREU M ADRIANA DEL VALLE</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button><div class="dropdown-menu open" role="combobox"><div class="bs-searchbox"><input type="text" class="form-control" autocomplete="off" role="textbox" aria-label="Search"></div><ul class="dropdown-menu inner" role="listbox" aria-expanded="false"><li data-original-index="0" class="selected"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="true"><span class="text">20934391 - ABREU M ADRIANA DEL VALLE</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div><select onchange="datos_trabajador();" name="cbotrabajador" id="cbotrabajador" data-width="100%" data-size="5" class="selectpicker" data-live-search="true" tabindex="-98">
+            <option selected="" value="20934391">20934391 - ABREU M ADRIANA DEL VALLE</option>           </select></div></div>
+      </td>     
+      <td>
+          <input name="hddclasenomina" id="hddclasenomina" type="hidden" value="ME"> 
+          <input name="hddturno" id="hddturno" type="hidden" value="1">
+          <input name="hddsisthor" id="hddsisthor" type="hidden" value="13">
+          <input name="hddrelacion_laboral" id="hddrelacion_laboral" type="hidden" value="B"> 
+          <input name="hddubicacion" id="hddubicacion" type="hidden" value="">         
+          <input name="hddcedtrabajadorsup" id="hddcedtrabajadorsup" type="hidden" value="16395343">
+          <input name="hddccosto" id="hddccosto" type="hidden" value="61803">
+          <input name="hddpuesto" id="hddpuesto" type="hidden" value="<br />
+<b>Notice</b>:  Undefined variable: 7078 in <b>/var/www/html/control_asistencia_desa/pages/cargar_permiso.php</b> on line <b>558</b><br />
+">
+          <input name="hddidcalendario" id="hddidcalendario" type="hidden" value="5214">
+          <input name="hddNuevo" id="hddNuevo" type="hidden" value="0">
+          <input name="hddalerta" id="hddalerta" type="hidden" value="">
+      </td>       
+
+      <td><label>C.Costo:</label></td>
+      <td><div class="col-xs-10"><input type="text" readonly="" id="txtccosto" maxlength="50" name="txtccosto" value="Relaciones Laborales y Beneficios" width="100%" class="form-control"></div></td>
+      <td> &nbsp;</td>   
+      <td><label>Cargo:</label></td>
+      <td><div class="col-xs-10"><input type="text" readonly="" id="txtpuesto" maxlength="50" name="txtpuesto" value="ANALISTA DE RELACIONES LABORALES I" width="100%" class="form-control"></div></td> 
+      <td> &nbsp;</td>  
+      <td> &nbsp;</td>      
+    </tr>
+
+    <tr>
+      <td> &nbsp;</td>  
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td>   
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>         
+    </tr>
+
+    <tr>
+       <td><label>Trabajador Sup.:</label></td>
+       <td><div class="col-xs-10"><input type="text" readonly="" id="txttrabajadorsup" maxlength="50" name="txttrabajadorsup" value="LUNAR G ROBERTO CARLOS" width="100%" class="form-control"></div>
+       </td>     
+       <td> &nbsp;</td>
+       <td><label>Periodo Pago:</label></td>
+       <td><div class="col-xs-10"><input type="date" id="txtppago" maxlength="10" name="txtppago" value="2024-06-30" width="100%" class="form-control"></div>
+       </td>
+       <td> &nbsp;</td>   
+       <td><label>Causa:</label></td>
+       <td><div id="capacodigo" class="col-xs-10"><div class="btn-group bootstrap-select" style="width: 100%;"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" role="button" data-id="cbocodigo" title="39: Horas Permiso Cedula de Identidad (PAGO)"><span class="filter-option pull-left">39: Horas Permiso Cedula de Identidad (PAGO)</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button><div class="dropdown-menu open" role="combobox"><div class="bs-searchbox"><input type="text" class="form-control" autocomplete="off" role="textbox" aria-label="Search"></div><ul class="dropdown-menu inner" role="listbox" aria-expanded="false"><li data-original-index="0" class="selected"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="true"><span class="text">39: Horas Permiso Cedula de Identidad (PAGO)</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div><select name="cbocodigo" id="cbocodigo" data-width="100%" data-size="5" onchange="controlar_horas()" class="selectpicker" data-live-search="true" tabindex="-98">
+             <option selected="" value="39">39: Horas Permiso Cedula de Identidad (PAGO)</option>            </select></div></div>
+       </td>
+       <td> &nbsp;</td>
+       <td> &nbsp;</td> 
+    </tr>
+
+    <tr>
+      <td> &nbsp;</td>  
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td>   
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+    </tr> 
+
+    <tr>
+       <td><label>Disp. Remun:</label></td>
+       <td><div class="col-xs-7"><input type="text" readonly="" id="txtdisrem" maxlength="50" name="txtdisrem" value="56" width="50%" class="form-control"></div></td>
+         <td> &nbsp;</td> 
+       <td><label>Disp. No Remun:</label></td>
+       <td><div class="col-xs-10"><input type="text" readonly="" id="txtdisnorem" maxlength="50" name="txtdisnorem" value="56" width="50%" class="form-control"></div></td>
+         <td> &nbsp;</td> 
+       <td><label>Ubicacion:</label></td>
+       <td><div class="col-xs-10"><input type="text" readonly="" name="txtubicacion" id="txtubicacion" onchange="Ubicacion()" value="" class="form-control"></div></td>
+       <td> &nbsp;</td>
+       <td> &nbsp;</td>
+    </tr> 
+    <tr>
+      <td> &nbsp;</td>  
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td>   
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>         
+    </tr>  
+
+    <tr>
+      <td> &nbsp;</td>
+      <td>
+          <label class="radio-inline">
+              <input type="radio" name="optionsRadiosInline" id="optionTotal" onclick="control_total()" value="Total"><label>Total</label>
+          </label>
+      </td>
+       <td> &nbsp;</td>
+       <td><label>F. Inicio:</label></td>
+       <td><div class="col-xs-10"><input type="date" maxlength="10" size="10" id="txtfinicio" name="txtfinicio" onchange="mostrar_esperanza()" value="2024-06-12" width="10" class="form-control"></div></td>
+       <td> &nbsp;</td> 
+       <td><label>F. Fin:</label></td>
+       <td><div class="col-xs-5"><input type="date" maxlength="10" size="10" id="txtffin" name="txtffin" onchange="mostrar_esperanza()" value="2024-06-12" width="10" class="form-control"></div></td>
+       <td> &nbsp;</td>
+       <td> &nbsp;</td>
+    </tr> 
+
+    <tr>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td>   
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+    </tr>  
+
+    <tr>
+       <td> &nbsp;</td>
+       <td><label class="radio-inline">
+              <input type="radio" name="optionsRadiosInline" id="optionParcial" onclick="control_pacial()" checked="" value="Parcial"><label>Parcial</label>
+          </label>
+      </td> 
+       <td> &nbsp;</td> 
+       <td><label>H. Inicio:</label></td>
+       <td><div class="col-xs-10"><input type="time" maxlength="10" size="10" id="txthoraini" name="txthoraini" value="07:00" width="10" class="form-control"></div></td>
+       <td> &nbsp;</td> 
+       <td><label>H. Fin:</label></td>
+       <td><div class="col-xs-5"><input type="time" maxlength="10" size="10" id="txthorafin" name="txthorafin" value="16:00" width="10" class="form-control"></div></td>
+       <td> &nbsp;</td>
+       <td> &nbsp;</td>       
+    </tr>
+
+    <tr>
+      <td> &nbsp;</td>  
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td>   
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>         
+    </tr>  
+
+    <tr>
+       <td><label>Condiciones:</label></td>
+       <td colspan="7"><div class="col-xs-12"><input type="text" readonly="" id="txtcondicion" maxlength="200" name="txtcondicion" value="El permiso debe ser solicitado con 10 dias de anticipacion." width="80%" class="form-control"></div></td> 
+       <td> &nbsp;</td>  
+      <td> &nbsp;</td>        
+    </tr>
+
+    <tr>
+      <td> &nbsp;</td>  
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td>   
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+    </tr>  
+
+    <tr>
+       <td><label>Doc. Requeridos:</label></td>
+       <td colspan="7"><div class="col-xs-12"><input type="text" readonly="" id="txtdocrequerido" maxlength="200" name="txtdocrequerido" value="Copia de Cedula Vencida y Copia del Comprobante (Cedula) Nuevo." width="80%" class="form-control"></div></td>
+      <td><label>Doc. Entregado?</label></td>
+      <td><div class="checkbox">
+              <label>
+                  <input type="checkbox" id="chkDocEntregado" checked="" name="chkDocEntregado" value="S"> 
+             </label>
+          </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td> &nbsp;</td>  
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td>   
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+    </tr>  
+
+    <tr>
+       <td><label>Observacion:</label></td>
+       <td colspan="7"><div class="col-xs-12"><input type="text" id="txtobservacion" maxlength="50" name="txtobservacion" value="prueba 3" width="80%" class="form-control"></div></td>
+       <td> &nbsp;</td>
+      <td> &nbsp;</td>   
+    </tr>
+       
+</tbody></table>

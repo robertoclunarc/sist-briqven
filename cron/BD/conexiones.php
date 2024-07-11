@@ -66,5 +66,14 @@ function sqlserv_conex_sitt(){
     return $dbh_sitt;
 }
 
+function Conex_oramprd(){
+    $conn = oci_connect('adam', 'PENDER1507', '10.50.188.65/mprd.briqven.com.ve');
+    if (!$conn) {
+        $e = oci_error();
+        trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+    }
+    return $conn;
+}
+
 ?>
  

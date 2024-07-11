@@ -186,25 +186,25 @@ $j=0;
 ///////////////////////INTRANET/////////////////////////////////////////////////////
 /* --------------Envia correos a todo el pesonal del cumpleanero del dia actual------------- */
 function notificar_cumpleaneros_hoy($cn){
-  	require_once('../intranet/cumples/conexion.php');
+    require_once('../intranet/cumples/conexion.php');
     $cn=Conectarse();
     $sql1 = "SELECT  trabajador, nombrecompl, cargo, correo FROM vista_cumples WHERE cuando = 'HOY'";
     $res1 = pg_query($cn,$sql1);
     $cont1=pg_num_rows($res1);
     if ($cont1>0){
-    	$cedula = array();
-    	$nombres = array();
-    	$cargos = array();    	
+        $cedula = array();
+        $nombres = array();
+        $cargos = array();      
         require_once('enviodecorreos.php');
         while ($row1 = pg_fetch_array($res1)){
-        	array_push($cedula, $row1['trabajador']);
-        	array_push($nombres, $row1['nombrecompl']);
-        	array_push($cargos, $row1['cargo']);        	
-        	ENVIAR_CORREO($cuerpo,'Muchas Felicidades','',$row1['correo'],'', 'intranet@briqven.com.ve', 'matesi.11');
+            array_push($cedula, $row1['trabajador']);
+            array_push($nombres, $row1['nombrecompl']);
+            array_push($cargos, $row1['cargo']);            
+            ENVIAR_CORREO($cuerpo,'Muchas Felicidades','',$row1['correo'],'', 'intranet@briqven.com.ve', 'matesi.11');
         }
         pg_free_result($res1);
         $sql2 = "SELECT correo FROM personal_activo_con_correo";
-    	$res2 = pg_query($cn,$sql2);
+        $res2 = pg_query($cn,$sql2);
         while ($row2 = pg_fetch_array($res2)){
             ENVIAR_CORREO($cuerpo,'Cumpleañero(s) de Hoy','',$row2['correo'],'', 'intranet@briqven.com.ve', 'matesi.11');            
         }
@@ -496,7 +496,7 @@ function delete_movimientos()
  }
 /*----------Notifica los Movimientos CERRADOS----------------------- */
 function notificar_completados(){
-  	require_once('../control_acceso/libs/conexion.php');
+    require_once('../control_acceso/libs/conexion.php');
     $cn=Conectarse();
     $sql1 = "SELECT a.*, b.tipo_movimiento FROM movimientos_cerrados_notif a, movimientos b WHERE enviado=FALSE AND a.fkmovimiento=b.idmovimiento";
     $res1 = pg_query($cn,$sql1);
@@ -511,7 +511,7 @@ function notificar_completados(){
         $ids = trim($ids, ',');
         $ids .=')';
         $sql2 = "UPDATE movimientos_cerrados_notif SET enviado=TRUE, fecha_notif=NOW() WHERE fkmovimiento IN ".$ids;
-    	$res2 = pg_query($cn,$sql2);
+        $res2 = pg_query($cn,$sql2);
     }
     pg_free_result($res1);
     return  "Finalizado Con Exito! Fueron Notificados: ".$cont1;
@@ -568,8 +568,8 @@ to_char(fecha_salida, 'YYYY-mm-dd') salida, to_char(fecha_salida, 'HH24:MI') hor
 round((to_char(fecha_salida -fecha_entrada , 'SSSS')::numeric/60)/60,1) as tiempo , 
 CASE
      WHEN round((to_char(fecha_salida -fecha_entrada , 'SSSS')::numeric/60)/60,1) IS NULL  
-     THEN 'exec poner_fichada_y_codigo_ausencia *' || to_char(fecha_entrada, 'YYYY-mm-dd') || '*, ' || cedula || ', 70, -1;' 
-     ELSE 'exec poner_fichada_codausencia_horas *' || to_char(fecha_entrada, 'YYYY-mm-dd') || '*, ' || cedula || ', 70, *' || to_char(fecha_entrada, 'HH24:MI') || '*, *' || to_char(fecha_salida, 'HH24:MI') || '*,  -1, **, **;' 
+     THEN 'exec poner_fichada_y_codigo_ausencia *' || to_char(fecha_entrada, 'YYYY-mm-dd') || '*, ' || cedula || ', 20, -1;' 
+     ELSE 'exec poner_fichada_codausencia_horas *' || to_char(fecha_entrada, 'YYYY-mm-dd') || '*, ' || cedula || ', 20, *' || to_char(fecha_entrada, 'HH24:MI') || '*, *' || to_char(fecha_salida, 'HH24:MI') || '*,  -1, **, **;' 
 END
    as store_proc_sitt_1 
  from tiempo_trabajado 
@@ -600,6 +600,67 @@ group by  cedula, nombres, fecha_entrada, fecha_salida order by fecha_entrada, c
     $conn_sitt=null;
     $stmt=null;
     //pg_close($cn_ctrl_planta);
+    pg_free_result($res1);
+    return $reslt;
+}
+
+/*----------Migrar fichadas del control de acceso a SITT----------------------- */
+function migrar_norequeridos_al_sitt($cn_ctrl_planta, $conn_sitt){
+
+    $sql1 = "SELECT id, cedula, to_char(now() - interval '1 day', 'YYYY-mm-dd') as ayer, 'exec poner_fichada_y_codigo_ausencia *' || to_char(now() - interval '1 day', 'YYYY-mm-dd') || '*, ' || cedula || ', 75, -1;' as store_proc_sitt_1 FROM personal_bloqueado  where status='ACTIVO' and  motivo='No Requerido' and (to_char(now() - interval '1 day', 'YYYY-mm-dd') between to_char(fecha_desde, 'YYYY-mm-dd') and to_char(fecha_hasta, 'YYYY-mm-dd') or (fecha_hasta is null))";
+    try {
+        $res1 = pg_query($cn_ctrl_planta,$sql1);
+        $cont1=pg_num_rows($res1);        
+        if ($cont1>0){                   
+            $conn_sitt->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            while ($row = pg_fetch_array($res1)){
+                $resultado="";
+                $resultado = str_replace("*", "'", $row['store_proc_sitt_1']);               
+                $stmt = $conn_sitt->prepare($resultado);
+                $stmt->execute();
+            }       
+        }
+        $reslt="Finalizado Con Exito! Fueron Migrados: ".$cont1." No Requeridos. ";
+    } catch(Exception $e) {
+        $reslt = "Error: " . $e->getMessage();
+    }
+    $conn_sitt=null;
+    $stmt=null;
+    
+    pg_free_result($res1);
+    return $reslt;
+}
+
+/*----------Migrar fichadas del control de acceso a SITT----------------------- */
+function cambia_norequeridos_afijodedia($cn_ctrl_planta, $conn_sitt){
+
+    $sql1 = "SELECT id, cedula, to_char(now() - interval '1 day', 'YYYY-mm-dd') as ayer FROM personal_bloqueado  where status='ACTIVO' and  motivo='No Requerido' and (to_char(now() - interval '1 day', 'YYYY-mm-dd') between to_char(fecha_desde, 'YYYY-mm-dd') and to_char(fecha_hasta, 'YYYY-mm-dd') or (fecha_hasta is null))";
+
+    $sql2 = "SELECT sistema_horario FROM ADAM_DATOS_PERSONALES where sistema_horario in (1,2,3,4,12) and trabajador = ";
+    try {
+        $res1 = pg_query($cn_ctrl_planta,$sql1);
+        $cont1=pg_num_rows($res1);
+        if ($cont1>0){                   
+            $conn_sitt->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $cont1=0;
+            while ($row = pg_fetch_array($res1)){
+                $stmt1  = $conn_sitt->query($sql2.$row['cedula']);                
+                $row1    = $stmt1->fetch(PDO::FETCH_ASSOC, PDO::FETCH_ORI_NEXT);
+                if ($row1['sistema_horario']==1 or  $row1['sistema_horario']==2 or  $row1['sistema_horario']==3 or  $row1['sistema_horario']==4 or  $row1['sistema_horario']==12){
+                    $cont1++;
+                    $sql3="exec PROC_ACTUALIZAR_ESPERANZA_PERSONA_SH ".$row['cedula'].", '".$row['ayer']."', 13";
+                    $stmt2 = $conn_sitt->prepare($sql3);
+                    $stmt2->execute();
+                }                
+            }       
+        }
+        $reslt="Finalizado Con Exito! Fueron Cambiados de esperanza: ".$cont1." No Requeridos. ";
+    } catch(Exception $e) {
+        $reslt = "Error: " . $e->getMessage();
+    }
+    $conn_sitt=null;
+    $stmt1=null;
+    $stmt2=null;
     pg_free_result($res1);
     return $reslt;
 }
@@ -928,12 +989,12 @@ $cn_serviciomedico=  pg_conex_bdmatserviciomedico();
 $cn_rrhh=  pg_conex_bdmatrrhh();
 $cn_ctrl_planta=pg_conex_bdmat_ctrl_planta();
 $cn_asistencia_laboral=pg_conex_bdmatasistencia_laboral();
-$cn_adam = oci_connect('ADAM', 'PENDER1507', '10.50.188.65/mprd.briqven.com.ve');
+$cn_adam = Conex_oramprd();
 $cn_sitt = sqlserv_conex_sitt();
 
 /////////////////////////////////////////////////////////////////////////////
 $msj1="*-------".date("d m Y H:m:s");
-$msj1.= " SE PROCESARAN 10 TAREAS:-------------------------------". "\n";
+$msj1.= " SE PROCESARAN 11 TAREAS:-------------------------------". "\n";
 guardar_log($msj1, true);
 guardar_log('BEGIN', true);
 //1
@@ -968,15 +1029,27 @@ guardar_log($msj1);
 */
 //6----------------------------------------------
 
-$msj1= "Ejecutando Funcion: 6. Sistema Control de Acceso: Actualizar los Jefes de Departamentos". "\n";
+$msj1= "Ejecutando Funcion: 4. Sistema Control de Acceso: Actualizar los Jefes de Departamentos". "\n";
 guardar_log($msj1, false);
 $msj1= actualizar_jefes($cn_rrhh, $cn_adam). "\n";
 $msj1 = "Resultado: ".$msj1;
 guardar_log($msj1, true);
 
-$msj1= "Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar Fichadas a SITT". "\n";
+$msj1= "Ejecutando Funcion: 5. Sistema Control de Acceso: Migrar Fichadas a SITT". "\n";
 guardar_log($msj1, false);
 $msj1= migrar_fichadas_al_sitt($cn_ctrl_planta, $cn_sitt). "\n";
+$msj1 = "Resultado: ".$msj1;
+guardar_log($msj1, true);
+
+$msj1= "Ejecutando Funcion: 6. Cambio de esperanza a fijo de dia a personal No Requeridos". "\n";
+guardar_log($msj1, false);
+$msj1=cambia_norequeridos_afijodedia($cn_ctrl_planta, $cn_sitt). "\n";
+$msj1 = "Resultado: ".$msj1;
+guardar_log($msj1, true);
+
+$msj1= "Ejecutando Funcion: 7. Sistema Control de Acceso: Migrar No reequeridos a SITT". "\n";
+guardar_log($msj1, false);
+$msj1= migrar_norequeridos_al_sitt($cn_ctrl_planta, $cn_sitt). "\n";
 $msj1 = "Resultado: ".$msj1;
 guardar_log($msj1, true);
 
@@ -998,13 +1071,13 @@ $msj1=cambio_cuadrilla($cn_sitt,$cn_asistencia_laboral);
 $msj1 = "Resultado: ".$msj1;
 guardar_log($msj1, true);
 
-$msj1= "Ejecutando Funcion: 11. Sist. Control de Acceso: Notificar Movimientos NO Retornados". "\n";
+/*$msj1= "Ejecutando Funcion: 11. Sist. Control de Acceso: Notificar Movimientos NO Retornados". "\n";
 guardar_log($msj1, false);
 $msj1=notificar_mov_no_return();
 $msj1 = "Resultado: ".$msj1;
-guardar_log($msj1, true);
+guardar_log($msj1, true);*/
 
-$msj1= "Ejecutando Funcion: 12. Cambio de esperanza por sustituciones". "\n";
+$msj1= "Ejecutando Funcion: 11. Cambio de esperanza por sustituciones". "\n";
 guardar_log($msj1, false);
 $msj1=agregar_sustituciones($cn_sitt,$cn_asistencia_laboral);
 $msj1 = "Resultado: ".$msj1;

@@ -1,0 +1,103 @@
+<table width="100%" border="1"><thead>
+		    <tr>
+			<td colspan="5" align="center">
+			    <h2><b>Reporte de entrada del personal del turno: 1, del Miercoles 20-04-2023</b></h2>
+			</td>
+		    </tr>
+			</thead>
+				</table>
+			<br><br><table width="100%" border="1" style="font-size:12px">
+		    <tr style="background-color:#c8190d;color:#ffffff;">
+			<th colspan="5" align="center"><b>Gcia Seg Patrimonial                    </b></th>
+		    </tr>
+                    <tr>
+                        <th width="5%">#</th>
+                        <th width="10%">Cedula</th>
+                        <th width="30%">Nombre</th>
+                        <th width="45%">Cargo</th>
+                        <th width="10%">Hora</th>
+                    </tr> 
+        	<tbody><tr style="background-color:#dadae4;"><td>1</td><td>17211258</td><td>VIAMONTE URBAEZ, RBAEZROGER</td><td>INSPECTOR DE PROTECCION DE PLANTA I</td><td>21:45:21</td></tr><tr><td width="5%">2</td><td width="10%">15853055</td><td width="30%">PERALES M, WILMER</td><td width="45%">INSPECTOR DE PROTECCION DE PLANTA I</td><td width="10%">21:45:14</td></tr><tr style="background-color:#dadae4;"><td width="5%">3</td><td width="10%">19301055</td><td width="30%">BARRIOS G, SERGIO</td><td width="45%">SUPERVISOR DE PROTECCION DE PLANTA</td><td width="10%">21:44:52</td></tr><tr><td width="5%">4</td><td width="10%">9910133</td><td width="30%">BAENA A, FELIX</td><td width="45%">INSPECTOR DE PROTECCION DE PLANTA I</td><td width="10%">21:44:43</td></tr><tr style="background-color:#dadae4;"><td width="5%">5</td><td width="10%">18901728</td><td width="30%">VILLARROEL G, VICTOR</td><td width="45%">INSPECTOR DE CONTROL DE MONITOREO I</td><td width="10%">21:44:38</td></tr><tr><td colspan="5"><b>Total por Gcia Seg Patrimonial                    : 5</b></td></tr> </tbody>
+		               		 </table><br><br><table width="100%" border="1" style="font-size:12px"><thead>
+        		            <tr style="background-color:#c8190d;color:#ffffff;">
+		                        <td colspan="5" align="center"><b>Gerencia de Seguridad y Salud Laboral   </b></td>
+                		    </tr>
+		                    <tr>                	        	
+                                      <th width="5%">#</th>
+                        		<th width="10%">Cedula</th>
+	        	                <th width="30%">Nombre</th>
+        		                <th width="45%">Cargo</th>
+	                	        <th width="10%">Hora</th>
+		                   </tr>
+                		</thead>
+		                <tbody><tr style="background-color:#dadae4;"><td width="5%">1</td><td width="10%">19911467</td><td width="30%">ROMERO C, ABILMER</td><td width="45%">TECNICO DE CONTROL DE EMERGENCIAS I</td><td width="10%">22:46:46</td></tr><tr><td width="5%">2</td><td width="10%">15782863</td><td width="30%">TORRES R, ROBNY</td><td width="45%">OPERADOR  DE CONTROL DE EMERGENCIA I</td><td width="10%">22:37:11</td></tr><tr style="background-color:#dadae4;"><td width="5%">3</td><td width="10%">8930338</td><td width="30%">GONZALEZ D, ANA</td><td width="45%">ENFERMERA I</td><td width="10%">22:47:38</td></tr><tr><td width="5%">4</td><td width="10%">27077578</td><td width="30%">SALAZAR M, NELKARIS</td><td width="45%">TECNICO DE HIGIENE Y SEGURIDAD I</td><td width="10%">22:41:49</td></tr><tr><td colspan="5"><b>Total por Gerencia de Seguridad y Salud Laboral   : 4</b></td></tr> </tbody>
+		               		 </table><br><br><table width="100%" border="1" style="font-size:12px"><thead>
+        		            <tr style="background-color:#c8190d;color:#ffffff;">
+		                        <td colspan="5" align="center"><b>Gcia. de Operaciones y Procesos         </b></td>
+                		    </tr>
+		                    <tr>                	        	
+                                      <th width="5%">#</th>
+                        		<th width="10%">Cedula</th>
+	        	                <th width="30%">Nombre</th>
+        		                <th width="45%">Cargo</th>
+	                	        <th width="10%">Hora</th>
+		                   </tr>
+                		</thead>
+		                <tbody><tr style="background-color:#dadae4;"><td width="5%">1</td><td width="10%">8881790</td><td width="30%">FLORES R, GREGORIO</td><td width="45%">OPERADOR DE SERVICIOS AUXILIARES III</td><td width="10%">22:50:55</td></tr><tr><td width="5%">2</td><td width="10%">11969044</td><td width="30%">VINA O, JOSE</td><td width="45%">ESPECIALISTA DE  SALA DE CONTROL</td><td width="10%">22:50:28</td></tr><tr style="background-color:#dadae4;"><td width="5%">3</td><td width="10%">11512626</td><td width="30%">SULBARAN F, KELVYN</td><td width="45%">OPERADOR DE MAQUILLADO I</td><td width="10%">22:47:45</td></tr><tr><td width="5%">4</td><td width="10%">12652102</td><td width="30%">VILLALBA B, JOSE</td><td width="45%">OPERADOR DE REDUCCION II</td><td width="10%">22:47:00</td></tr><tr style="background-color:#dadae4;"><td width="5%">5</td><td width="10%">11516764</td><td width="30%">NAVARRO H, YOHMNI</td><td width="45%">ESPECIALISTA DE  SALA DE CONTROL</td><td width="10%">22:46:54</td></tr><tr><td width="5%">6</td><td width="10%">16391960</td><td width="30%">CARABALLO F, JHONNY</td><td width="45%">OPERADOR DE BRIQUETEADORA II</td><td width="10%">22:46:23</td></tr><tr style="background-color:#dadae4;"><td width="5%">7</td><td width="10%">16722078</td><td width="30%">AGUILERA R, GERSON</td><td width="45%">OPERADOR DE REFORMACION III</td><td width="10%">22:41:33</td></tr><tr><td width="5%">8</td><td width="10%">12188150</td><td width="30%">GUZMAN G, OSCAR</td><td width="45%">OPERADOR DE BRIQUETEADORA III</td><td width="10%">22:40:12</td></tr><tr style="background-color:#dadae4;"><td width="5%">9</td><td width="10%">5082499</td><td width="30%">VIVENES R, NELSON</td><td width="45%">JEFE DE PLANTA.</td><td width="10%">22:40:08</td></tr><tr><td width="5%">10</td><td width="10%">8935249</td><td width="30%">RODRIGUEZ G, NESTOR</td><td width="45%">OPERADOR MANEJO DE MINERALES I</td><td width="10%">22:36:49</td></tr><tr><td colspan="5"><b>Total por Gcia. de Operaciones y Procesos         : 10</b></td></tr> </tbody>
+		               		 </table><br><br><table width="100%" border="1" style="font-size:12px"><thead>
+        		            <tr style="background-color:#c8190d;color:#ffffff;">
+		                        <td colspan="5" align="center"><b>Gerencia de Mantenimiento               </b></td>
+                		    </tr>
+		                    <tr>                	        	
+                                      <th width="5%">#</th>
+                        		<th width="10%">Cedula</th>
+	        	                <th width="30%">Nombre</th>
+        		                <th width="45%">Cargo</th>
+	                	        <th width="10%">Hora</th>
+		                   </tr>
+                		</thead>
+		                <tbody><tr style="background-color:#dadae4;"><td width="5%">1</td><td width="10%">16392613</td><td width="30%">RODRIGUEZ B, RANIER</td><td width="45%">SUPERVISOR DE MANTENIMIENTO</td><td width="10%">22:51:02</td></tr><tr><td width="5%">2</td><td width="10%">12360539</td><td width="30%">OLIVARES B, ALEXANDER</td><td width="45%">MECANICO SOLDADOR I</td><td width="10%">22:50:32</td></tr><tr style="background-color:#dadae4;"><td width="5%">3</td><td width="10%">12133566</td><td width="30%">HENRIQUEZ F, DIONIS</td><td width="45%">MECANICO I</td><td width="10%">22:47:42</td></tr><tr><td width="5%">4</td><td width="10%">19803020</td><td width="30%">GIL GIL, ILPEDRO</td><td width="45%">MECANICO I</td><td width="10%">22:47:04</td></tr><tr style="background-color:#dadae4;"><td width="5%">5</td><td width="10%">13334350</td><td width="30%">ESTABA G, YOANDRIS</td><td width="45%">MECANICO I</td><td width="10%">22:46:50</td></tr><tr><td width="5%">6</td><td width="10%">12005214</td><td width="30%">MEDINA Z, ALEXANDER</td><td width="45%">SUPERVISOR DE MANTENIMIENTO</td><td width="10%">22:46:37</td></tr><tr style="background-color:#dadae4;"><td width="5%">7</td><td width="10%">17431835</td><td width="30%">PAEZ C, PEDRO</td><td width="45%">MECANICO SOLDADOR I</td><td width="10%">22:46:30</td></tr><tr><td width="5%">8</td><td width="10%">27728885</td><td width="30%">RONDON I, GUSTAVO</td><td width="45%">MECANICO I</td><td width="10%">22:41:57</td></tr><tr style="background-color:#dadae4;"><td width="5%">9</td><td width="10%">8526427</td><td width="30%">SIFONTES S, NIEVES</td><td width="45%">MECANICO SOLDADOR I</td><td width="10%">22:41:52</td></tr><tr><td width="5%">10</td><td width="10%">21339501</td><td width="30%">SOLANO H, EDUAR</td><td width="45%">MECANICO I</td><td width="10%">22:36:54</td></tr><tr style="background-color:#dadae4;"><td width="5%">11</td><td width="10%">13016226</td><td width="30%">ORONOZ P, CARLOS</td><td width="45%">ELECTRO/INSTRUMENTISTA I</td><td width="10%">22:41:45</td></tr><tr><td width="5%">12</td><td width="10%">19872030</td><td width="30%">LEON V, YUGLET</td><td width="45%">ELECTRO/INSTRUMENTISTA III</td><td width="10%">22:41:36</td></tr><tr style="background-color:#dadae4;"><td width="5%">13</td><td width="10%">18247920</td><td width="30%">BOLIVAR C, JUAN</td><td width="45%">INGENIERO ESPECIALISTA DE CONTROL I</td><td width="10%">22:50:35</td></tr><tr><td colspan="5"><b>Total por Gerencia de Mantenimiento               : 13</b></td></tr> </tbody>
+		               		 </table><br><br><table width="100%" border="1" style="font-size:12px"><thead>
+        		            <tr style="background-color:#c8190d;color:#ffffff;">
+		                        <td colspan="5" align="center"><b>Gerencia General Industrial             </b></td>
+                		    </tr>
+		                    <tr>                	        	
+                                      <th width="5%">#</th>
+                        		<th width="10%">Cedula</th>
+	        	                <th width="30%">Nombre</th>
+        		                <th width="45%">Cargo</th>
+	                	        <th width="10%">Hora</th>
+		                   </tr>
+                		</thead>
+		                <tbody><tr style="background-color:#dadae4;"><td width="5%">1</td><td width="10%">13443264</td><td width="30%">GARCIA S, JOSE</td><td width="45%">ALMACENISTA DE HERRAMIENTAS I</td><td width="10%">22:50:38</td></tr><tr><td colspan="5"><b>Total por Gerencia General Industrial             : 1</b></td></tr> </tbody>
+		               		 </table><br><br><table width="100%" border="1" style="font-size:12px"><thead>
+        		            <tr style="background-color:#c8190d;color:#ffffff;">
+		                        <td colspan="5" align="center"><b>Gerencia de Abastecimiento              </b></td>
+                		    </tr>
+		                    <tr>                	        	
+                                      <th width="5%">#</th>
+                        		<th width="10%">Cedula</th>
+	        	                <th width="30%">Nombre</th>
+        		                <th width="45%">Cargo</th>
+	                	        <th width="10%">Hora</th>
+		                   </tr>
+                		</thead>
+		                <tbody><tr style="background-color:#dadae4;"><td width="5%">1</td><td width="10%">27644484</td><td width="30%">DIAZ H, MARIANGEL</td><td width="45%">ALMACENISTA I</td><td width="10%">22:47:32</td></tr><tr><td colspan="5"><b>Total por Gerencia de Abastecimiento              : 1</b></td></tr> </tbody>
+		               		 </table><br><br><table width="100%" border="1" style="font-size:12px"><thead>
+        		            <tr style="background-color:#c8190d;color:#ffffff;">
+		                        <td colspan="5" align="center"><b>Gerencia de Calidad y Logística         </b></td>
+                		    </tr>
+		                    <tr>                	        	
+                                      <th width="5%">#</th>
+                        		<th width="10%">Cedula</th>
+	        	                <th width="30%">Nombre</th>
+        		                <th width="45%">Cargo</th>
+	                	        <th width="10%">Hora</th>
+		                   </tr>
+                		</thead>
+		                <tbody><tr style="background-color:#dadae4;"><td width="5%">1</td><td width="10%">12893017</td><td width="30%">MARIN M, ORANGEL</td><td width="45%">TECNICO DE LABORATORIO QUIIMICO III</td><td width="10%">22:41:41</td></tr><tr><td width="5%">2</td><td width="10%">9949859</td><td width="30%">DIAZ A, LUIS</td><td width="45%">TECNICO DE LABORATORIO FISICO I</td><td width="10%">22:41:38</td></tr><tr style="background-color:#dadae4;"><td width="5%">3</td><td width="10%">15543312</td><td width="30%">RODRIGUEZ V, DIEGO</td><td width="45%">TECNICO DE LABORATORIO FISICO III</td><td width="10%">22:40:17</td></tr><tr><td width="5%">4</td><td width="10%">12644773</td><td width="30%">ALVAREZ G, ANTONIO</td><td width="45%">OPERADOR DE BALANZA I</td><td width="10%">22:40:43</td></tr><tr><td colspan="5"><b>Total por Gerencia de Calidad y Logística         : 4</b></td></tr> </tbody>
+	                  </table><br><br> <table width="100%" border="1" style="font-size:12px">
+                                    <tr>
+                                        <td colspan="5" align="center"><b>Total de trabajadores que ingresaron  a la empresa: 38</b></td>
+                                    </tr>
+                          </table>

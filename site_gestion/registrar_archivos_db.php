@@ -74,6 +74,7 @@ if ($mensage=='Correcto')
 
 	$fini1='';
 	$num=0;
+
 	for ($i=$filas; ($filas <= $highestRow-1 && $fechaFin!=$fini1); $i++){ 
 			$num++;
 
@@ -110,6 +111,7 @@ if ($mensage=='Correcto')
 				$stmt->bindParam(4, $real,  PDO::PARAM_STR,10);
 				$stmt->execute();
 				$stmt = $connSIO->prepare("insert into [dbo].[Tab_Produccion] ([fecha],[reactor],[plan],[real]) values ( ?, ?, ?, ?)");
+				//print "<br>".$fini1." * ".$reactor2." * ".$plan2." * ".$real;
 				$stmt->bindParam(1, $fini1, PDO::PARAM_STR,10);
 				$stmt->bindParam(2, $reactor2,  PDO::PARAM_STR,1);			
 				$stmt->bindParam(3, $plan2,  PDO::PARAM_STR,10);
@@ -135,7 +137,7 @@ if ($mensage=='Correcto')
 				$stme->bindParam(5, $capacidad_instalada,  PDO::PARAM_STR,10);
 				$stme->bindParam(6, $tiempo,  PDO::PARAM_STR,10);				
 				$stme->execute();
-print '<br>'.$id_instalacion2.' '.$fini1.' '.$productividad2.' '.$_SESSION['user_session_sio'].' '.$capacidad_instalada.' '.$tiempo2;
+				//print '<br>'.$id_instalacion2.' '.$fini1.' '.$productividad2.' '.$_SESSION['user_session_sio'].' '.$capacidad_instalada.' '.$tiempo2;
 				$stme = $coneSI->prepare("insert into [dbo].[mat_si_prod_programada] (id_instalacion, fecha_hora_inicio_vigencia, prod_programada, id_usuario, capacidad_instalada, tiempo_efectivo) values (?, ?, ?, ?, ?, ?)");
 				$stme->bindParam(1, $id_instalacion2, PDO::PARAM_STR,5);
 				$stme->bindParam(2, $fini1,  PDO::PARAM_STR,10);			
